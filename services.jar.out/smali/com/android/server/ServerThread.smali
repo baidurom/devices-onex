@@ -785,6 +785,8 @@
 
     .line 299
     :goto_a
+    invoke-static {v4}, Lcom/baidu/service/YiServiceLoader;->main(Landroid/content/Context;)V
+
     new-instance v50, Lcom/android/server/CpuGovernorService;
 
     move-object/from16 v0, v50
