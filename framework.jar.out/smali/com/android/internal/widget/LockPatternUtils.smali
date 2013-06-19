@@ -1859,6 +1859,12 @@
 
     invoke-direct {p0, v0, v1, v2}, Lcom/android/internal/widget/LockPatternUtils;->setLong(Ljava/lang/String;J)V
 
+    const-string v0, "lockscreen.lockmode_type"
+
+    const-wide/16 v1, 0x2
+
+    invoke-direct {p0, v0, v1, v2}, Lcom/android/internal/widget/LockPatternUtils;->setLong(Ljava/lang/String;J)V
+
     .line 494
     const-string v0, "lockscreen.password_type_alternate"
 
@@ -2735,7 +2741,7 @@
 
     move-result-object v0
 
-    const v1, 0x1110023
+    const v1, #bool@config_voice_capable#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -2755,7 +2761,7 @@
 
     move-result-object v0
 
-    const v1, 0x111001e
+    const v1, #bool@config_enable_emergency_call_while_sim_locked#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -3038,7 +3044,7 @@
 
     move-result-object v0
 
-    const v1, 0x111001d
+    const v1, #bool@config_enable_puk_unlock_screen#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
