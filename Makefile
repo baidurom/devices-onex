@@ -118,7 +118,7 @@ vendor_modify_jars := framework framework2 services HTCExtension
 # baidu_modify_apps: which base the baidu's apk
 # just override the res, append *.smali.part
 #-----------------------------------------------------------------------------
-#baidu_modify_apps := Phone BaiduCamera
+baidu_modify_apps := Phone
 
 ##############################################################################
 # baidu_modify_jars: which base the baidu's jar

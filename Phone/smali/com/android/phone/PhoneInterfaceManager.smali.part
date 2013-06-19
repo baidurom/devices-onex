@@ -1,0 +1,12 @@
+.method public getHtcNetworkType([Ljava/lang/String;)I
+    .locals 1 
+    .parameter "stack"
+
+    .prologue
+    .line 3041
+    invoke-virtual {p0}, Lcom/android/phone/PhoneInterfaceManager;->getNetworkType()I
+
+    move-result v0
+
+    return v0
+.end method
