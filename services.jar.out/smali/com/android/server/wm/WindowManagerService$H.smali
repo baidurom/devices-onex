@@ -495,11 +495,7 @@
 
     iget v10, v0, Lcom/android/server/wm/StartingData;->windowFlags:I
 
-    move-object/from16 v0, v27
-
-    iget-object v11, v0, Lcom/android/server/wm/StartingData;->thumbnail:Landroid/graphics/Bitmap;
-
-    invoke-interface/range {v2 .. v11}, Landroid/view/WindowManagerPolicy;->addStartingWindow(Landroid/os/IBinder;Ljava/lang/String;ILandroid/content/res/CompatibilityInfo;Ljava/lang/CharSequence;IIILandroid/graphics/Bitmap;)Landroid/view/View;
+    invoke-interface/range {v2 .. v10}, Landroid/view/WindowManagerPolicy;->addStartingWindow(Landroid/os/IBinder;Ljava/lang/String;ILandroid/content/res/CompatibilityInfo;Ljava/lang/CharSequence;III)Landroid/view/View;
     :try_end_8
     .catch Ljava/lang/Exception; {:try_start_8 .. :try_end_8} :catch_2
 
