@@ -376,7 +376,7 @@
 
 .field private mVoiceCapable:Z
 
-.field private mVolumePanel:Lcom/htc/view/VolumePanel;
+.field private mVolumePanel:Landroid/view/VolumePanel;
 
 .field private preRingerMode:I
 
@@ -841,11 +841,11 @@
     iput v5, p0, Landroid/media/AudioService;->SOUND_EFFECT_VOLUME_DB:I
 
     .line 477
-    new-instance v5, Lcom/htc/view/VolumePanel;
+    new-instance v5, Landroid/view/VolumePanel;
 
-    invoke-direct {v5, p1, p0}, Lcom/htc/view/VolumePanel;-><init>(Landroid/content/Context;Landroid/media/AudioService;)V
+    invoke-direct {v5, p1, p0}, Landroid/view/VolumePanel;-><init>(Landroid/content/Context;Landroid/media/AudioService;)V
 
-    iput-object v5, p0, Landroid/media/AudioService;->mVolumePanel:Lcom/htc/view/VolumePanel;
+    iput-object v5, p0, Landroid/media/AudioService;->mVolumePanel:Landroid/view/VolumePanel;
 
     .line 478
     iput v3, p0, Landroid/media/AudioService;->mForcedUseForComm:I
@@ -3704,34 +3704,34 @@
 .end method
 
 .method private checkForRingerModeChange(III)Z
-    .locals 11
+    .locals 10
     .parameter "oldIndex"
     .parameter "direction"
     .parameter "streamType"
 
     .prologue
-    const/4 v6, 0x2
-
     const/4 v5, 0x0
 
-    const/4 v10, -0x1
+    const/4 v6, 0x2
+
+    const/4 v9, -0x1
 
     const/4 v4, 0x1
 
-    .line 2797
+    .line 1670
     const/4 v0, 0x1
 
-    .line 2798
+    .line 1671
     .local v0, adjustVolumeIndex:Z
     iget v1, p0, Landroid/media/AudioService;->mRingerMode:I
 
-    .line 2799
+    .line 1672
     .local v1, newRingerMode:I
     add-int/lit8 v7, p1, 0x5
 
     div-int/lit8 v2, v7, 0xa
 
-    .line 2800
+    .line 1673
     .local v2, uiIndex:I
     iget-object v7, p0, Landroid/media/AudioService;->mContentResolver:Landroid/content/ContentResolver;
 
@@ -3745,89 +3745,32 @@
 
     move v3, v4
 
-    .line 2802
+    .line 1675
     .local v3, vibeInSilent:Z
     :goto_0
-    const-string v7, "AudioService"
-
-    new-instance v8, Ljava/lang/StringBuilder;
-
-    invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v9, "checkForRingerModeChange: oldIndex = "
-
-    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    const-string v9, ", direction = "
-
-    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    const-string v9, " , streamType = "
-
-    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8, p3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    const-string v9, " , MAX="
-
-    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    iget-object v9, p0, Landroid/media/AudioService;->MAX_STREAM_VOLUME:[I
-
-    aget v9, v9, p3
-
-    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v8
-
-    invoke-static {v7, v8}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 2811
     iget v7, p0, Landroid/media/AudioService;->mRingerMode:I
 
-    if-ne v7, v6, :cond_8
+    if-ne v7, v6, :cond_7
 
-    .line 2812
-    if-ne p2, v10, :cond_7
+    .line 1676
+    if-ne p2, v9, :cond_3
 
-    if-gt v2, v4, :cond_7
+    if-gt v2, v4, :cond_3
 
-    .line 2815
+    .line 1679
     if-nez v3, :cond_0
 
     iget v7, p0, Landroid/media/AudioService;->mPrevVolDirection:I
 
-    if-eq v7, v10, :cond_1
+    if-eq v7, v9, :cond_1
 
-    .line 2817
+    .line 1681
     :cond_0
     if-eqz v3, :cond_6
 
-    move v1, v5
+    move v1, v4
 
-    .line 2819
+    .line 1683
     :cond_1
     :goto_1
     if-eqz v2, :cond_2
@@ -3836,7 +3779,7 @@
 
     iget v4, p0, Landroid/media/AudioService;->mPrevVolDirection:I
 
-    if-ne v4, v10, :cond_3
+    if-ne v4, v9, :cond_3
 
     iget-boolean v4, p0, Landroid/media/AudioService;->mVoiceCapable:Z
 
@@ -3844,134 +3787,94 @@
 
     if-ne p3, v6, :cond_3
 
-    .line 2823
+    .line 1687
     :cond_2
     const/4 v0, 0x0
 
-    .line 2858
+    .line 1709
     :cond_3
     :goto_2
     iget v4, p0, Landroid/media/AudioService;->mRingerMode:I
 
     if-eq v1, v4, :cond_4
 
-    .line 2859
+    .line 1710
     invoke-virtual {p0, v1}, Landroid/media/AudioService;->setRingerMode(I)V
 
-    .line 2862
+    .line 1713
     :cond_4
     iput p2, p0, Landroid/media/AudioService;->mPrevVolDirection:I
 
-    .line 2864
+    .line 1715
     return v0
 
     .end local v3           #vibeInSilent:Z
     :cond_5
     move v3, v5
 
-    .line 2800
+    .line 1673
     goto :goto_0
 
     .restart local v3       #vibeInSilent:Z
     :cond_6
-    move v1, v4
+    move v1, v5
 
-    .line 2817
+    .line 1681
     goto :goto_1
 
-    .line 2826
+    .line 1690
     :cond_7
-    iget-object v5, p0, Landroid/media/AudioService;->MAX_STREAM_VOLUME:[I
+    iget v5, p0, Landroid/media/AudioService;->mRingerMode:I
 
-    aget v5, v5, p3
+    if-ne v5, v4, :cond_a
 
-    add-int/lit8 v5, v5, -0x1
+    .line 1691
+    if-ne p2, v9, :cond_9
 
-    if-lt v2, v5, :cond_3
+    .line 1693
+    iget v4, p0, Landroid/media/AudioService;->mPrevVolDirection:I
 
-    if-ne p2, v4, :cond_3
+    if-eq v4, v9, :cond_8
 
-    invoke-direct {p0}, Landroid/media/AudioService;->applyOutdoorMode()Z
+    .line 1694
+    const/4 v1, 0x0
 
-    move-result v4
-
-    if-eqz v4, :cond_3
-
-    .line 2827
-    const/4 v1, 0x3
-
-    goto :goto_2
-
-    .line 2830
+    .line 1699
     :cond_8
-    iget v7, p0, Landroid/media/AudioService;->mRingerMode:I
-
-    if-nez v7, :cond_b
-
-    .line 2831
-    if-ne p2, v10, :cond_a
-
-    .line 2834
-    const/4 v1, 0x1
-
-    .line 2839
-    :cond_9
     :goto_3
     const/4 v0, 0x0
 
     goto :goto_2
 
-    .line 2836
-    :cond_a
-    if-ne p2, v4, :cond_9
+    .line 1696
+    :cond_9
+    if-ne p2, v4, :cond_8
 
-    .line 2837
+    .line 1697
     const/4 v1, 0x2
 
     goto :goto_3
 
-    .line 2841
+    .line 1701
+    :cond_a
+    if-ne p2, v4, :cond_b
+
+    .line 1704
+    if-eqz v3, :cond_c
+
+    move v1, v4
+
+    .line 1706
     :cond_b
-    iget v7, p0, Landroid/media/AudioService;->mRingerMode:I
-
-    const/4 v8, 0x3
-
-    if-ne v7, v8, :cond_d
-
-    .line 2842
-    if-ne p2, v10, :cond_c
-
-    .line 2843
-    const/4 v1, 0x2
-
-    goto :goto_2
-
-    .line 2845
-    :cond_c
-    const/4 v0, 0x0
-
-    goto :goto_2
-
-    .line 2849
-    :cond_d
-    if-ne p2, v4, :cond_e
-
-    .line 2852
-    if-eqz v3, :cond_f
-
-    move v1, v5
-
-    .line 2854
-    :cond_e
     :goto_4
     const/4 v0, 0x0
 
     goto :goto_2
 
-    :cond_f
+    :cond_c
     move v1, v6
 
-    .line 2852
+    .line 1704
     goto :goto_4
 .end method
 
@@ -8335,54 +8238,13 @@
 .end method
 
 .method private resetVolumePanel()V
-    .locals 3
+    .locals 0
 
     .prologue
-    .line 4602
-    iget-object v2, p0, Landroid/media/AudioService;->mContext:Landroid/content/Context;
 
-    invoke-virtual {v2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
-
-    move-result-object v2
-
-    iget-object v0, v2, Landroid/content/res/Configuration;->skin:Ljava/lang/String;
-
-    .line 4603
-    .local v0, skinPackage:Ljava/lang/String;
-    iget-object v2, p0, Landroid/media/AudioService;->mSkin:Ljava/lang/String;
-
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_0
-
-    .line 4608
-    :goto_0
+    .line 4554
     return-void
 
-    .line 4605
-    :cond_0
-    iput-object v0, p0, Landroid/media/AudioService;->mSkin:Ljava/lang/String;
-
-    .line 4606
-    iget-object v2, p0, Landroid/media/AudioService;->mContext:Landroid/content/Context;
-
-    invoke-direct {p0, v2}, Landroid/media/AudioService;->getSkinContext(Landroid/content/Context;)Landroid/content/Context;
-
-    move-result-object v1
-
-    .line 4607
-    .local v1, wrappedContext:Landroid/content/Context;
-    iget-object v2, p0, Landroid/media/AudioService;->mVolumePanel:Lcom/htc/view/VolumePanel;
-
-    invoke-virtual {v2, v1}, Lcom/htc/view/VolumePanel;->resetProgressBar(Landroid/content/Context;)V
-
-    goto :goto_0
 .end method
 
 .method private restoreMediaButtonReceiver()V
@@ -8889,9 +8751,9 @@
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1011
-    iget-object v1, p0, Landroid/media/AudioService;->mVolumePanel:Lcom/htc/view/VolumePanel;
+    iget-object v1, p0, Landroid/media/AudioService;->mVolumePanel:Landroid/view/VolumePanel;
 
-    invoke-virtual {v1, p1, p4}, Lcom/htc/view/VolumePanel;->postVolumeChanged(II)V
+    invoke-virtual {v1, p1, p4}, Landroid/view/VolumePanel;->postVolumeChanged(II)V
 
     .line 1012
     const-string v1, "AudioService"
@@ -16974,43 +16836,11 @@
 .end method
 
 .method public setVolumePanelOrientation(I)V
-    .locals 3
+    .locals 0
     .parameter "orientation"
 
     .prologue
     .line 2011
-    const-string v0, "AudioService"
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string/jumbo v2, "setVolumePanelOrientation("
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    const-string v2, ")"
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 2012
-    iget-object v0, p0, Landroid/media/AudioService;->mVolumePanel:Lcom/htc/view/VolumePanel;
-
-    invoke-virtual {v0, p1}, Lcom/htc/view/VolumePanel;->setVolumePanelOrientation(I)V
 
     .line 2013
     return-void
