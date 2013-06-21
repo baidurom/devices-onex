@@ -38,17 +38,17 @@
     .parameter "v"
 
     .prologue
-    .line 9159
+    .line 8606
     invoke-direct {p0}, Landroid/os/Handler;-><init>()V
 
-    .line 9160
+    .line 8607
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object v0, p0, Landroid/widget/TextView$Blink;->mView:Ljava/lang/ref/WeakReference;
 
-    .line 9161
+    .line 8608
     return-void
 .end method
 
@@ -58,43 +58,43 @@
     .locals 1
 
     .prologue
-    .line 9183
+    .line 8629
     iget-boolean v0, p0, Landroid/widget/TextView$Blink;->mCancelled:Z
 
     if-nez v0, :cond_0
 
-    .line 9184
+    .line 8630
     invoke-virtual {p0, p0}, Landroid/widget/TextView$Blink;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 9185
+    .line 8631
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Landroid/widget/TextView$Blink;->mCancelled:Z
 
-    .line 9187
+    .line 8633
     :cond_0
     return-void
 .end method
 
 .method public run()V
-    .locals 6
+    .locals 5
 
     .prologue
-    .line 9164
+    .line 8611
     iget-boolean v1, p0, Landroid/widget/TextView$Blink;->mCancelled:Z
 
     if-eqz v1, :cond_1
 
-    .line 9180
+    .line 8626
     :cond_0
     :goto_0
     return-void
 
-    .line 9168
+    .line 8615
     :cond_1
     invoke-virtual {p0, p0}, Landroid/widget/TextView$Blink;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 9170
+    .line 8617
     iget-object v1, p0, Landroid/widget/TextView$Blink;->mView:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -103,68 +103,50 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    .line 9172
+    .line 8619
     .local v0, tv:Landroid/widget/TextView;
     if-eqz v0, :cond_0
 
     #calls: Landroid/widget/TextView;->shouldBlink()Z
-    invoke-static {v0}, Landroid/widget/TextView;->access$2200(Landroid/widget/TextView;)Z
+    invoke-static {v0}, Landroid/widget/TextView;->access$2100(Landroid/widget/TextView;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 9173
+    .line 8620
     iget-object v1, v0, Landroid/widget/TextView;->mLayout:Landroid/text/Layout;
 
     if-eqz v1, :cond_2
 
-    .line 9174
+    .line 8621
     #calls: Landroid/widget/TextView;->invalidateCursorPath()V
-    invoke-static {v0}, Landroid/widget/TextView;->access$2300(Landroid/widget/TextView;)V
+    invoke-static {v0}, Landroid/widget/TextView;->access$2200(Landroid/widget/TextView;)V
 
-    .line 9178
+    .line 8624
     :cond_2
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
-    move-result-wide v2
+    move-result-wide v1
 
-    invoke-static {}, Landroid/widget/TextView;->access$2400()Z
+    const-wide/16 v3, 0x1f4
 
-    move-result v1
-
-    if-eqz v1, :cond_3
-
-    invoke-static {}, Landroid/widget/TextView;->access$2500()I
-
-    move-result v1
-
-    :goto_1
-    int-to-long v4, v1
-
-    add-long v1, v2, v4
+    add-long/2addr v1, v3
 
     invoke-virtual {p0, p0, v1, v2}, Landroid/widget/TextView$Blink;->postAtTime(Ljava/lang/Runnable;J)Z
 
     goto :goto_0
-
-    :cond_3
-    invoke-static {}, Landroid/widget/TextView;->access$2600()I
-
-    move-result v1
-
-    goto :goto_1
 .end method
 
 .method uncancel()V
     .locals 1
 
     .prologue
-    .line 9190
+    .line 8636
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Landroid/widget/TextView$Blink;->mCancelled:Z
 
-    .line 9191
+    .line 8637
     return-void
 .end method
