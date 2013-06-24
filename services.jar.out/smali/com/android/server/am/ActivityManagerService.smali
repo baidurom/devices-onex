@@ -26063,7 +26063,7 @@
 
     .line 1520
     .local v2, context:Landroid/content/Context;
-    const v6, 0x1030128
+    const v6, #style@Theme.DeviceDefault.Light#t
 
     invoke-virtual {v2, v6}, Landroid/content/Context;->setTheme(I)V
 
@@ -79991,33 +79991,18 @@
     .parameter "initLocale"
 
     .prologue
-    .line 14554
+    .line 13595
     const/16 v22, 0x0
 
-    .line 14556
+    .line 13597
     .local v22, changes:I
     const/16 v25, 0x1
 
-    .line 14558
+    .line 13599
     .local v25, kept:Z
-    if-eqz p1, :cond_c
+    if-eqz p1, :cond_8
 
-    .line 14560
-    move-object/from16 v0, p0
-
-    iget-boolean v2, v0, Lcom/android/server/am/ActivityManagerService;->mDuringHibernate:Z
-
-    if-eqz v2, :cond_0
-
-    .line 14561
-    const/4 v2, 0x1
-
-    move-object/from16 v0, p1
-
-    iput v2, v0, Landroid/content/res/Configuration;->orientation:I
-
-    .line 14564
-    :cond_0
+    .line 13600
     new-instance v27, Landroid/content/res/Configuration;
 
     move-object/from16 v0, p0
@@ -80028,7 +80013,7 @@
 
     invoke-direct {v0, v2}, Landroid/content/res/Configuration;-><init>(Landroid/content/res/Configuration;)V
 
-    .line 14565
+    .line 13601
     .local v27, newConfig:Landroid/content/res/Configuration;
     move-object/from16 v0, v27
 
@@ -80038,26 +80023,26 @@
 
     move-result v22
 
-    .line 14566
-    if-eqz v22, :cond_c
+    .line 13602
+    if-eqz v22, :cond_8
 
-    .line 14571
+    .line 13607
     const/16 v2, 0xa9f
 
     move/from16 v0, v22
 
     invoke-static {v2, v0}, Landroid/util/EventLog;->writeEvent(II)I
 
-    .line 14573
+    .line 13609
     move-object/from16 v0, p1
 
     iget-object v2, v0, Landroid/content/res/Configuration;->locale:Ljava/util/Locale;
 
-    if-eqz v2, :cond_1
+    if-eqz v2, :cond_0
 
-    if-nez p4, :cond_1
+    if-nez p4, :cond_0
 
-    .line 14574
+    .line 13610
     move-object/from16 v0, p1
 
     iget-object v3, v0, Landroid/content/res/Configuration;->locale:Ljava/util/Locale;
@@ -80076,7 +80061,7 @@
 
     move-result v2
 
-    if-nez v2, :cond_8
+    if-nez v2, :cond_5
 
     const/4 v2, 0x1
 
@@ -80089,8 +80074,8 @@
 
     invoke-direct {v0, v3, v2, v4}, Lcom/android/server/am/ActivityManagerService;->saveLocaleLocked(Ljava/util/Locale;ZZ)V
 
-    .line 14579
-    :cond_1
+    .line 13615
+    :cond_0
     move-object/from16 v0, p0
 
     iget v2, v0, Lcom/android/server/am/ActivityManagerService;->mConfigurationSeq:I
@@ -80101,22 +80086,22 @@
 
     iput v2, v0, Lcom/android/server/am/ActivityManagerService;->mConfigurationSeq:I
 
-    .line 14580
+    .line 13616
     move-object/from16 v0, p0
 
     iget v2, v0, Lcom/android/server/am/ActivityManagerService;->mConfigurationSeq:I
 
-    if-gtz v2, :cond_2
+    if-gtz v2, :cond_1
 
-    .line 14581
+    .line 13617
     const/4 v2, 0x1
 
     move-object/from16 v0, p0
 
     iput v2, v0, Lcom/android/server/am/ActivityManagerService;->mConfigurationSeq:I
 
-    .line 14583
-    :cond_2
+    .line 13619
+    :cond_1
     move-object/from16 v0, p0
 
     iget v2, v0, Lcom/android/server/am/ActivityManagerService;->mConfigurationSeq:I
@@ -80125,82 +80110,14 @@
 
     iput v2, v0, Landroid/content/res/Configuration;->seq:I
 
-    .line 14585
-    move-object/from16 v0, p1
-
-    iget-object v2, v0, Landroid/content/res/Configuration;->skin:Ljava/lang/String;
-
-    if-eqz v2, :cond_3
-
-    .line 14586
-    move-object/from16 v0, p1
-
-    iget-object v3, v0, Landroid/content/res/Configuration;->skin:Ljava/lang/String;
-
-    move-object/from16 v0, p1
-
-    iget-object v2, v0, Landroid/content/res/Configuration;->skin:Ljava/lang/String;
-
-    move-object/from16 v0, p0
-
-    iget-object v4, v0, Lcom/android/server/am/ActivityManagerService;->mConfiguration:Landroid/content/res/Configuration;
-
-    iget-object v4, v4, Landroid/content/res/Configuration;->skin:Ljava/lang/String;
-
-    invoke-virtual {v2, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v2
-
-    if-nez v2, :cond_9
-
-    const/4 v2, 0x1
-
-    :goto_1
-    move-object/from16 v0, p0
-
-    invoke-direct {v0, v3, v2}, Lcom/android/server/am/ActivityManagerService;->saveSkinLocked(Ljava/lang/String;Z)V
-
-    .line 14590
-    :cond_3
-    move-object/from16 v0, p1
-
-    iget v2, v0, Landroid/content/res/Configuration;->fontsize:I
-
-    if-eqz v2, :cond_4
-
-    .line 14591
-    move-object/from16 v0, p1
-
-    iget v3, v0, Landroid/content/res/Configuration;->fontsize:I
-
-    move-object/from16 v0, p1
-
-    iget v2, v0, Landroid/content/res/Configuration;->fontsize:I
-
-    move-object/from16 v0, p0
-
-    iget-object v4, v0, Lcom/android/server/am/ActivityManagerService;->mConfiguration:Landroid/content/res/Configuration;
-
-    iget v4, v4, Landroid/content/res/Configuration;->fontsize:I
-
-    if-eq v2, v4, :cond_a
-
-    const/4 v2, 0x1
-
-    :goto_2
-    move-object/from16 v0, p0
-
-    invoke-direct {v0, v3, v2}, Lcom/android/server/am/ActivityManagerService;->saveFontsizeLocked(IZ)V
-
-    .line 14594
-    :cond_4
+    .line 13620
     move-object/from16 v0, v27
 
     move-object/from16 v1, p0
 
     iput-object v0, v1, Lcom/android/server/am/ActivityManagerService;->mConfiguration:Landroid/content/res/Configuration;
 
-    .line 14595
+    .line 13621
     const-string v2, "ActivityManager"
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -80225,7 +80142,7 @@
 
     invoke-static {v2, v3}, Landroid/util/Slog;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 14597
+    .line 13623
     new-instance v23, Landroid/content/res/Configuration;
 
     move-object/from16 v0, p0
@@ -80236,41 +80153,41 @@
 
     invoke-direct {v0, v2}, Landroid/content/res/Configuration;-><init>(Landroid/content/res/Configuration;)V
 
-    .line 14599
+    .line 13625
     .local v23, configCopy:Landroid/content/res/Configuration;
     invoke-static {}, Lcom/android/server/AttributeCache;->instance()Lcom/android/server/AttributeCache;
 
     move-result-object v20
 
-    .line 14600
+    .line 13626
     .local v20, ac:Lcom/android/server/AttributeCache;
-    if-eqz v20, :cond_5
+    if-eqz v20, :cond_2
 
-    .line 14601
+    .line 13627
     move-object/from16 v0, v20
 
     move-object/from16 v1, v23
 
     invoke-virtual {v0, v1}, Lcom/android/server/AttributeCache;->updateConfiguration(Landroid/content/res/Configuration;)V
 
-    .line 14611
-    :cond_5
+    .line 13637
+    :cond_2
     sget-object v2, Lcom/android/server/am/ActivityManagerService;->mSystemThread:Landroid/app/ActivityThread;
 
     move-object/from16 v0, v23
 
     invoke-virtual {v2, v0}, Landroid/app/ActivityThread;->applyConfigurationToResources(Landroid/content/res/Configuration;)V
 
-    .line 14613
-    if-eqz p3, :cond_6
+    .line 13639
+    if-eqz p3, :cond_3
 
     invoke-static/range {v22 .. v22}, Landroid/provider/Settings$System;->hasInterestingConfigurationChanges(I)Z
 
     move-result v2
 
-    if-eqz v2, :cond_6
+    if-eqz v2, :cond_3
 
-    .line 14614
+    .line 13640
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/android/server/am/ActivityManagerService;->mHandler:Landroid/os/Handler;
@@ -80281,7 +80198,7 @@
 
     move-result-object v26
 
-    .line 14615
+    .line 13641
     .local v26, msg:Landroid/os/Message;
     new-instance v2, Landroid/content/res/Configuration;
 
@@ -80293,7 +80210,7 @@
 
     iput-object v2, v0, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    .line 14616
+    .line 13642
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/android/server/am/ActivityManagerService;->mHandler:Landroid/os/Handler;
@@ -80302,9 +80219,9 @@
 
     invoke-virtual {v2, v0}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
-    .line 14619
+    .line 13645
     .end local v26           #msg:Landroid/os/Message;
-    :cond_6
+    :cond_3
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/android/server/am/ActivityManagerService;->mLruProcesses:Ljava/util/ArrayList;
@@ -80316,10 +80233,10 @@
     add-int/lit8 v24, v2, -0x1
 
     .local v24, i:I
-    :goto_3
-    if-ltz v24, :cond_b
+    :goto_1
+    if-ltz v24, :cond_6
 
-    .line 14620
+    .line 13646
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/android/server/am/ActivityManagerService;->mLruProcesses:Ljava/util/ArrayList;
@@ -80332,16 +80249,16 @@
 
     check-cast v21, Lcom/android/server/am/ProcessRecord;
 
-    .line 14622
+    .line 13648
     .local v21, app:Lcom/android/server/am/ProcessRecord;
     :try_start_0
     move-object/from16 v0, v21
 
     iget-object v2, v0, Lcom/android/server/am/ProcessRecord;->thread:Landroid/app/IApplicationThread;
 
-    if-eqz v2, :cond_7
+    if-eqz v2, :cond_4
 
-    .line 14625
+    .line 13651
     move-object/from16 v0, v21
 
     iget-object v2, v0, Lcom/android/server/am/ProcessRecord;->thread:Landroid/app/IApplicationThread;
@@ -80352,53 +80269,41 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 14619
-    :cond_7
-    :goto_4
+    .line 13645
+    :cond_4
+    :goto_2
     add-int/lit8 v24, v24, -0x1
 
-    goto :goto_3
+    goto :goto_1
 
-    .line 14574
+    .line 13610
     .end local v20           #ac:Lcom/android/server/AttributeCache;
     .end local v21           #app:Lcom/android/server/am/ProcessRecord;
     .end local v23           #configCopy:Landroid/content/res/Configuration;
     .end local v24           #i:I
-    :cond_8
+    :cond_5
     const/4 v2, 0x0
 
     goto/16 :goto_0
 
-    .line 14586
-    :cond_9
-    const/4 v2, 0x0
-
-    goto/16 :goto_1
-
-    .line 14591
-    :cond_a
-    const/4 v2, 0x0
-
-    goto/16 :goto_2
-
-    .line 14630
+    .line 13656
     .restart local v20       #ac:Lcom/android/server/AttributeCache;
     .restart local v23       #configCopy:Landroid/content/res/Configuration;
     .restart local v24       #i:I
-    :cond_b
+    :cond_6
     new-instance v5, Landroid/content/Intent;
 
     const-string v2, "android.intent.action.CONFIGURATION_CHANGED"
 
     invoke-direct {v5, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 14631
+    .line 13657
     .local v5, intent:Landroid/content/Intent;
     const/high16 v2, 0x6000
 
     invoke-virtual {v5, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 14633
+    .line 13659
     const/4 v3, 0x0
 
     const/4 v4, 0x0
@@ -80427,12 +80332,12 @@
 
     invoke-direct/range {v2 .. v15}, Lcom/android/server/am/ActivityManagerService;->broadcastIntentLocked(Lcom/android/server/am/ProcessRecord;Ljava/lang/String;Landroid/content/Intent;Ljava/lang/String;Landroid/content/IIntentReceiver;ILjava/lang/String;Landroid/os/Bundle;Ljava/lang/String;ZZII)I
 
-    .line 14635
+    .line 13661
     and-int/lit8 v2, v22, 0x4
 
-    if-eqz v2, :cond_c
+    if-eqz v2, :cond_7
 
-    .line 14636
+    .line 13662
     const/4 v7, 0x0
 
     const/4 v8, 0x0
@@ -80467,18 +80372,61 @@
 
     invoke-direct/range {v6 .. v19}, Lcom/android/server/am/ActivityManagerService;->broadcastIntentLocked(Lcom/android/server/am/ProcessRecord;Ljava/lang/String;Landroid/content/Intent;Ljava/lang/String;Landroid/content/IIntentReceiver;ILjava/lang/String;Landroid/os/Bundle;Ljava/lang/String;ZZII)I
 
-    .line 14644
+    .line 13668
+    :cond_7
+    const/high16 v2, -0x8000
+
+    and-int v2, v2, v22
+
+    if-eqz v2, :cond_8
+
+    .line 13670
+    const/4 v7, 0x0
+
+    const/4 v8, 0x0
+
+    new-instance v9, Landroid/content/Intent;
+
+    const-string v2, "android.intent.action.THEME_CHANGED"
+
+    invoke-direct {v9, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+
+    const/4 v10, 0x0
+
+    const/4 v11, 0x0
+
+    const/4 v12, 0x0
+
+    const/4 v13, 0x0
+
+    const/4 v14, 0x0
+
+    const/4 v15, 0x0
+
+    const/16 v16, 0x0
+
+    const/16 v17, 0x0
+
+    sget v18, Lcom/android/server/am/ActivityManagerService;->MY_PID:I
+
+    const/16 v19, 0x3e8
+
+    move-object/from16 v6, p0
+
+    invoke-direct/range {v6 .. v19}, Lcom/android/server/am/ActivityManagerService;->broadcastIntentLocked(Lcom/android/server/am/ProcessRecord;Ljava/lang/String;Landroid/content/Intent;Ljava/lang/String;Landroid/content/IIntentReceiver;ILjava/lang/String;Landroid/os/Bundle;Ljava/lang/String;ZZII)I
+
+    .line 13677
     .end local v5           #intent:Landroid/content/Intent;
     .end local v20           #ac:Lcom/android/server/AttributeCache;
     .end local v23           #configCopy:Landroid/content/res/Configuration;
     .end local v24           #i:I
     .end local v27           #newConfig:Landroid/content/res/Configuration;
-    :cond_c
-    if-eqz v22, :cond_d
+    :cond_8
+    if-eqz v22, :cond_9
 
-    if-nez p2, :cond_d
+    if-nez p2, :cond_9
 
-    .line 14648
+    .line 13681
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/android/server/am/ActivityManagerService;->mMainStack:Lcom/android/server/am/ActivityStack;
@@ -80489,11 +80437,11 @@
 
     move-result-object p2
 
-    .line 14651
-    :cond_d
-    if-eqz p2, :cond_e
+    .line 13684
+    :cond_9
+    if-eqz p2, :cond_a
 
-    .line 14652
+    .line 13685
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/android/server/am/ActivityManagerService;->mMainStack:Lcom/android/server/am/ActivityStack;
@@ -80506,7 +80454,7 @@
 
     move-result v25
 
-    .line 14655
+    .line 13688
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/android/server/am/ActivityManagerService;->mMainStack:Lcom/android/server/am/ActivityStack;
@@ -80517,17 +80465,17 @@
 
     invoke-virtual {v2, v0, v1}, Lcom/android/server/am/ActivityStack;->ensureActivitiesVisibleLocked(Lcom/android/server/am/ActivityRecord;I)V
 
-    .line 14658
-    :cond_e
-    if-eqz p1, :cond_f
+    .line 13691
+    :cond_a
+    if-eqz p1, :cond_b
 
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/android/server/am/ActivityManagerService;->mWindowManager:Lcom/android/server/wm/WindowManagerService;
 
-    if-eqz v2, :cond_f
+    if-eqz v2, :cond_b
 
-    .line 14659
+    .line 13692
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/android/server/am/ActivityManagerService;->mWindowManager:Lcom/android/server/wm/WindowManagerService;
@@ -80538,11 +80486,11 @@
 
     invoke-virtual {v2, v3}, Lcom/android/server/wm/WindowManagerService;->setNewConfiguration(Landroid/content/res/Configuration;)V
 
-    .line 14662
-    :cond_f
+    .line 13695
+    :cond_b
     return v25
 
-    .line 14627
+    .line 13653
     .restart local v20       #ac:Lcom/android/server/AttributeCache;
     .restart local v21       #app:Lcom/android/server/am/ProcessRecord;
     .restart local v23       #configCopy:Landroid/content/res/Configuration;
@@ -80551,7 +80499,7 @@
     :catch_0
     move-exception v2
 
-    goto/16 :goto_4
+    goto/16 :goto_2
 .end method
 
 .method updateCpuStats()V
