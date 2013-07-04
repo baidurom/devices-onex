@@ -231,6 +231,88 @@
     goto :goto_0
 .end method
 
+.method private filterResolveInfo(Landroid/content/Intent;Ljava/util/List;)V
+    .locals 5
+    .parameter "intent"
+    .parameter
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Intent;",
+            "Ljava/util/List",
+            "<",
+            "Landroid/content/pm/ResolveInfo;",
+            ">;)V"
+        }
+    .end annotation
+
+    .prologue
+    .line 280
+    .local p2, resolveList:Ljava/util/List;,"Ljava/util/List<Landroid/content/pm/ResolveInfo;>;"
+    const-string v3, "android.intent.action.RINGTONE_PICKER"
+
+    invoke-virtual {p1}, Landroid/content/Intent;->getAction()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-nez v3, :cond_1
+
+    .line 290
+    :cond_0
+    :goto_1
+    return-void
+
+    .line 283
+    :cond_1
+    invoke-interface {p2}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    .line 284
+    .local v0, N:I
+    const/4 v1, 0x0
+
+    .local v1, i:I
+    :goto_0
+    if-ge v1, v0, :cond_0
+
+    .line 285
+    invoke-interface {p2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Landroid/content/pm/ResolveInfo;
+
+    .line 286
+    .local v2, ri:Landroid/content/pm/ResolveInfo;
+    const-string v3, "com.htc.app.HtcRingtonePickerActivity"
+
+    iget-object v4, v2, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
+
+    iget-object v4, v4, Landroid/content/pm/ActivityInfo;->name:Ljava/lang/String;
+
+    invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-eqz v3, :cond_2
+
+    .line 287
+    invoke-interface {p2, v1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
+
+    goto :goto_1
+
+    .line 284
+    :cond_2
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+.end method
+
 .method private processGroup(Ljava/util/List;IILandroid/content/pm/ResolveInfo;Ljava/lang/CharSequence;)V
     .locals 16
     .parameter
@@ -654,6 +736,19 @@
     move-object/from16 v0, p0
 
     iput-object v1, v0, Lcom/android/internal/app/ResolverActivity$ResolveListAdapter;->mCurrentResolveList:Ljava/util/List;
+
+    .line 299
+    move-object/from16 v0, p0
+
+    iget-object v1, v0, Lcom/android/internal/app/ResolverActivity$ResolveListAdapter;->mIntent:Landroid/content/Intent;
+
+    move-object/from16 v0, p0
+
+    iget-object v2, v0, Lcom/android/internal/app/ResolverActivity$ResolveListAdapter;->mCurrentResolveList:Ljava/util/List;
+
+    move-object/from16 v0, p0
+
+    invoke-direct {v0, v1, v2}, Lcom/android/internal/app/ResolverActivity$ResolveListAdapter;->filterResolveInfo(Landroid/content/Intent;Ljava/util/List;)V
 
     goto :goto_0
 
