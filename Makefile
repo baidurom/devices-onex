@@ -151,4 +151,5 @@ remove_property += \
         ro.operator.spec \
         ro.operator.seg
 
+include $(PWD)/vendor.remove.mk
 include $(PORT_BUILD)/main.mk
