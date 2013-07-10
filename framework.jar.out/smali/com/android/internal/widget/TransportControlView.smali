@@ -38,7 +38,6 @@
 
 
 # instance fields
-.field private mAlbumArt:Landroid/widget/ImageView;
 
 .field private mAttached:Z
 
@@ -216,17 +215,6 @@
     .prologue
     .line 56
     iget-object v0, p0, Lcom/android/internal/widget/TransportControlView;->mMetadata:Lcom/android/internal/widget/TransportControlView$Metadata;
-
-    return-object v0
-.end method
-
-.method static synthetic access$600(Lcom/android/internal/widget/TransportControlView;)Landroid/widget/ImageView;
-    .locals 1
-    .parameter "x0"
-
-    .prologue
-    .line 56
-    iget-object v0, p0, Lcom/android/internal/widget/TransportControlView;->mAlbumArt:Landroid/widget/ImageView;
 
     return-object v0
 .end method
@@ -462,18 +450,6 @@
 
     .line 313
     :cond_6
-    iget-object v4, p0, Lcom/android/internal/widget/TransportControlView;->mAlbumArt:Landroid/widget/ImageView;
-
-    iget-object v5, p0, Lcom/android/internal/widget/TransportControlView;->mMetadata:Lcom/android/internal/widget/TransportControlView$Metadata;
-
-    #getter for: Lcom/android/internal/widget/TransportControlView$Metadata;->bitmap:Landroid/graphics/Bitmap;
-    invoke-static {v5}, Lcom/android/internal/widget/TransportControlView$Metadata;->access$500(Lcom/android/internal/widget/TransportControlView$Metadata;)Landroid/graphics/Bitmap;
-
-    move-result-object v5
-
-    invoke-virtual {v4, v5}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
-
-    .line 314
     iget v0, p0, Lcom/android/internal/widget/TransportControlView;->mTransportControlFlags:I
 
     .line 315
@@ -866,7 +842,7 @@
 
     .line 354
     .restart local v0       #imageDescId:I
-    const/4 v2, 0x1
+    const/4 v2, 0x0
 
     .line 355
     goto :goto_1
@@ -883,7 +859,7 @@
 
     .line 360
     .restart local v0       #imageDescId:I
-    const/4 v2, 0x1
+    const/4 v2, 0x0
 
     .line 361
     goto :goto_1
@@ -1165,17 +1141,6 @@
     iget-object v5, p0, Lcom/android/internal/widget/TransportControlView;->mTrackTitle:Landroid/widget/TextView;
 
     invoke-virtual {v5, v7}, Landroid/widget/TextView;->setSelected(Z)V
-
-    .line 211
-    const v5, 0x10202b1
-
-    invoke-virtual {p0, v5}, Lcom/android/internal/widget/TransportControlView;->findViewById(I)Landroid/view/View;
-
-    move-result-object v5
-
-    check-cast v5, Landroid/widget/ImageView;
-
-    iput-object v5, p0, Lcom/android/internal/widget/TransportControlView;->mAlbumArt:Landroid/widget/ImageView;
 
     .line 212
     const v5, 0x10202b2
