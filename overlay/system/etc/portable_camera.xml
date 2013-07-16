@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaiduCameraSettings name="HTC One X">
+
+    <DefaultPanoramCaputreSize>960x720</DefaultPanoramCaputreSize>
+    <UseFaceDetection>true</UseFaceDetection>
+    <UseDefaultPicturePreviewSize>false</UseDefaultPicturePreviewSize>
+    <SetParametersTwice>false</SetParametersTwice>
+    <UseDefaultVideoPreviewSize>true</UseDefaultVideoPreviewSize>
+    <AutoFocusBeforeRecording>true</AutoFocusBeforeRecording>
+    <SetFixedFocusArea>true</SetFixedFocusArea>
+    <ResetMaxNumMeteringAreas>true</ResetMaxNumMeteringAreas>
+    <UseVideoEffect>false</UseVideoEffect>
+    <SceneModeOffWhenRecord>false</SceneModeOffWhenRecord>
+    <TegraCameraRecording>true</TegraCameraRecording>
+
+</BaiduCameraSettings>
