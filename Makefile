@@ -71,7 +71,7 @@ vendor_remove_files := bin/zchgd
 ##############################################################################
 # Vendor apks you want to use
 #-----------------------------------------------------------------------------
-vendor_saved_apps := FMRadioService Bluetooth
+vendor_saved_apps := FMRadioService Bluetooth Nfc
 
 ##############################################################################
 # Apks build from current project root directory

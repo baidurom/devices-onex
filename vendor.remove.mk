@@ -57,7 +57,6 @@ vendor_remove_files += \
 	lib/libBMapApiEngine.so \
 	lib/libassd.so \
 	lib/libqunarlib.so \
-	lib/libnfc_jni.so \
 	lib/libpicowrapper.so \
 	lib/libxebkit.so \
 	lib/libmpl_jni.so \
