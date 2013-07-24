@@ -10,7 +10,12 @@ on early-init
     symlink /mnt/sdcard /sdcard
 
 on fs
-    mount ext4 /dev/block/mmcblk0p12 /system wait ro
+    # Change owner and mode of su bin
+    mount ext4 /dev/block/mmcblk0p12 /system wait rw
+    chown root root /system/xbin/su
+    chmod 6755 /system/xbin/su
+
+    mount ext4 /dev/block/mmcblk0p12 /system wait ro remount
     mount ext4 /dev/block/mmcblk0p15 /data wait noatime nosuid nodev noauto_da_alloc
     mount ext4 /dev/block/mmcblk0p13 /cache wait noatime nosuid nodev noauto_da_alloc
     mkdir /rca 0775 radio radio
@@ -67,8 +72,6 @@ on boot
     chmod 0660 /sys/class/power_supply/battery/charger_control
     chown radio radio /sys/class/power_supply/battery/phone_call
     chmod 0660 /sys/class/power_supply/battery/phone_call
-
-
 
 # HTC_WIFI_START
 	mkdir /data/misc/wifi 0770 wifi wifi
