@@ -5983,3 +5983,38 @@
 
     return v0
 .end method
+
+.method public enableHTCActionBar()V
+    .locals 0
+
+    .prologue
+    .line 1499
+    return-void
+.end method
+
+.method public setContentHeight(I)V
+    .locals 0
+    .parameter "height"
+
+    .prologue
+    .line 1515
+    return-void
+.end method
+
+.method public setListMenuAnchorView(Landroid/view/View;)V
+    .locals 0
+    .parameter "anchor"
+
+    .prologue
+    .line 1530
+    return-void
+.end method
+
+.method public setListMenuOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    .locals 0
+    .parameter "listener"
+
+    .prologue
+    .line 1521
+    return-void
+.end method

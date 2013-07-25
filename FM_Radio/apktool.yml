@@ -1,0 +1,8 @@
+version: 1.4.10.f53a296
+apkFileName: FM_Radio.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 2
+  tag: vendor_onex

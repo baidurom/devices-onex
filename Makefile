@@ -89,7 +89,7 @@ vendor_saved_apps := FMRadioService Bluetooth
 # you need decode FMRadio.apk to the project directory (use apktool d FMRadio.apk) first
 # then you can make it by:   make FMRadio
 #-----------------------------------------------------------------------------
-#vendor_modify_apps := FM_Radio framework-htc-res
+vendor_modify_apps := FM_Radio
 
 ##############################################################################
 # Jars build from current project root directory
