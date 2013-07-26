@@ -1,0 +1,5 @@
+﻿Project: ENDEAVOR_U_ICS_40
+SKU: HTCCN OC ROM
+ROM Build ID: 373803
+Build ID: 373804; SKU: HTCCN OC ROM default; CID: default; MNS: default
+Datetime: 2012/05/08 22:07:04

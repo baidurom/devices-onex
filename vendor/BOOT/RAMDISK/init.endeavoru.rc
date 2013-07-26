@@ -1,0 +1,39 @@
+import init.endeavoru.common.rc
+
+service clockd /system/bin/clockd
+    class main
+    oneshot
+
+service qb_offmode_alarm /system/bin/qb_offmode_alarm
+    user root
+    disabled
+    oneshot
+
+service zchgd_offmode /system/bin/zchgd -pseudooffmode
+    user root
+    disabled
+
+service zchgd_onmode /system/bin/zchgd -onmode
+    class main
+    user root
+
+service clockd /system/bin/clockd
+    class main
+    oneshot
+
+service qb_offmode_alarm /system/bin/qb_offmode_alarm
+    user root
+    disabled
+    oneshot
+
+# Permission for H3G LMI app
+    chmod 755 /system/bin/RescueServer
+    chmod 755 /system/bin/RescueStarter
+    chown graphics /system/bin/RescueStarter
+    chown graphics /system/bin/RescueServer
+
+# Service Start for H3G LMI app
+service RescueStarter /system/bin/RescueStarter
+    class core
+    user graphics
+    group input graphics

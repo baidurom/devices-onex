@@ -1,0 +1,1695 @@
+--------- beginning of /dev/log/main
+I/BATT_ENR(  136): calculate_level: first calculation: batt_alg->dis_percent=750, batt_alg->percent_update=750
+I/BATT_ENR(  136): calculate_level: first calculation: batt_alg->dis_volt=3854, batt_alg->first_current=-597, batt_alg->first_temp=420
+I/BATT_ALG(  136): batt_alg_set_charging: set charging: 1
+I/RescueStarter(  137): RescueStarter 7.0.446 starts
+I/RescueStarter(  137): ready, waiting for connection
+I/uim-sysfs: (  135): uim: Inside main
+D/uim-sysfs: (  135): [GPS] uim htc_gps_init
+D/EWdaemon(  150): Panasonic Sensor Fusion (daemon), Version:1.0.1.2
+D/EWdaemon(  150): Copyright (c) 2011 all rights preserved by Prolific Technology Inc.
+D/EWdaemon(  150): Now algorithm version : 120307 
+D/EWdaemon(  150): dir_polar.acc = 6, 7   
+D/EWdaemon(  150): dir_polar. mag= 6, 7   
+D/EWdaemon(  150): dir_polar. gyro= 6, 2   
+D/EWdaemon(  150): Sensor fusion libary start!
+D/EWdaemon(  150): StartSignal
+I/uim-sysfs: (  135): uim: Inside insmod
+--------- beginning of /dev/log/system
+I/BKOPSD  (  151): htcbkopsd started...
+D/AK8975  (  149): AK8975 daemon 1.1.2-Save_power Start
+D/AK8975  (  149): (Library version : 1.2.1.1125)
+D/uim-sysfs: (  135): uim: Inserted st_drv module 1123v1
+I/uim-sysfs: (  135): uim: Inside insmod
+D/uim-sysfs: (  135): uim: Inserted fm_drv module
+I/uim-sysfs: (  135): uim: Inside insmod
+D/uim-sysfs: (  135): uim: Inserted gps_drv module
+D/uim-sysfs: (  135): uim:FM V4L2 driver module un-available... 
+D/uim-sysfs: (  135): uim:FM V4L2 driver built into the kernel ?
+I/uim-sysfs: (  135): uim: Inside insmod
+D/CANDaemon(  156): [CAND] [main] start v2
+D/CANDaemon(  156): [CAND] [server_function] server_function is running.
+D/CANDaemon(  156): 
+D/Clockd  (  157): init success
+D/Clockd  (  157): wating for client connection
+D/CANDaemon(  156): [CAND] [monitor_cable_status_thread] ENTER FUNCTION
+D/CANDaemon(  156): 
+I/Vold    (  130): Vold 2.1 (the revenge) firing up
+I/Vold    (  130): extra on mmcblk0p16
+I/Netd    (  138): Netd 1.0 starting
+D/Vold    (  130): Set handling read only 0
+D/Vold    (  130): Volume sdcard state changing -1 (Initializing) -> 0 (No-Media)
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+W/VoldDirectVolume(  130): device name = mmcblk0
+D/Vold    (  130): Volume sdcard state changing 0 (No-Media) -> 2 (Pending)
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_NAME' not found
+E/NetlinkEvent(  130): NetlinkEvent::FindParam(): Parameter 'SWITCH_STATE' not found
+D/Vold    (  130): Volume sdcard state changing 2 (Pending) -> 1 (Idle-Unmounted)
+I/DEBUG   (  139): debuggerd: Sep  7 2012 04:31:10
+E/DxDrmNexPlayerIntegrator(  154): ** Discretix Server loaded config file - result=0 **
+D/uim-sysfs: (  135): uim: Inserted bluetooth module
+D/uim-sysfs: (  135): uim:l2cap module un-available... 
+D/uim-sysfs: (  135): uim:l2cap built into the kernel ?
+D/uim-sysfs: (  135): uim:sco module un-available... 
+D/uim-sysfs: (  135): uim:sco built into the kernel ?
+I/uim-sysfs: (  135): uim: Inside insmod
+D/SoftapController(  138): startHostapd: wifi.HostapdStarted
+D/uim-sysfs: (  135): uim: Inserted rfcomm module
+I/uim-sysfs: (  135): uim: Inside insmod
+D/uim-sysfs: (  135): uim: Inserted hidp module
+I/uim-sysfs: (  135): uim: Inside insmod
+D/uim-sysfs: (  135): uim: Inserted hidp module
+I/uim-sysfs: (  135): uim: Inside insmod
+D/uim-sysfs: (  135): uim: Inserted btwilink module
+I/uim-sysfs: (  135): uim: Inside insmod
+I/recovery(  183): Installing new recovery image 
+D/SoftapController(  138): Set property wifi.HostapdStarted: 0 && set mApMode = false
+D/uim-sysfs: (  135): uim: Inserted bnep module
+I/        (  142): ServiceManager: 0x1a889a8
+I/SurfaceFlinger(  140): SurfaceFlinger is starting
+I/CPluginManagerLoader(  140): CPluginManagerLoader constructor.
+D/AndroidRuntime(  141): 
+D/AndroidRuntime(  141): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime(  141): CheckJNI is OFF
+I/CHTCPluginManager(  140): CHTCPluginManager::CHTCPluginManager()
+D/CPluginManagerLoader(  140): Load libhtcanipluginmanager.so OK
+I/CPluginManagerLoader(  140): CPluginManagerLoader::init OK
+I/CHTCPluginManager(  140): CHTCPluginManager::init
+I/SurfaceFlinger(  140): SurfaceFlinger init done
+I/SurfaceFlinger(  140): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+I/htcfs-main(  155): main()
+I/htcfs-main(  155): ############# HTC FS - START ##################
+I/dalvikvm(  141): mlock: /data/dalvik-cache/system@framework@core.jar@classes.dex, fd=8
+I/dalvikvm(  141): mlock(1281830912, 3365960), fd=8
+I/gralloc (  140): using (fd=15)
+I/gralloc (  140): id           = tegra_fb
+I/gralloc (  140): xres         = 720 px
+I/gralloc (  140): yres         = 1280 px
+I/gralloc (  140): xres_virtual = 720 px
+I/gralloc (  140): yres_virtual = 2560 px
+I/gralloc (  140): bpp          = 32
+I/gralloc (  140): r            =  0:8
+I/gralloc (  140): g            =  8:8
+I/gralloc (  140): b            = 16:8
+I/gralloc (  140): smem_start   = 0xbec00000
+I/gralloc (  140): smem_len     = 0x00400000
+I/gralloc (  140): format       = 1
+I/gralloc (  140): stride       = 720
+I/gralloc (  140): width        = 53 mm (345.056610 dpi)
+I/gralloc (  140): height       = 95 mm (342.231567 dpi)
+I/gralloc (  140): refresh rate = 60.00 Hz
+E/DxDrmNexPlayerIntegrator(  154): ** Discretix SignalsListener Thread is starting **
+E/DxSecureClock(  154): ** Discretix Clock Monitor is starting **
+E/DxDrmNexPlayerIntegrator(  154): ** Discretix Server is starting **
+D/libEGL  (  140): loaded /system/lib/egl/libEGL_tegra.so
+D/HDMIDaemon(  212): readyToRun: success
+D/HDMIDaemon(  212): readyToRun: success displayd
+D/libEGL  (  140): loaded /system/lib/egl/libGLESv1_CM_tegra.so
+I/        (  143): mediaserver main in
+I/        (  143): after defaultServiceManager
+I/        (  143): ServiceManager: 0x75a70
+D/mcp_common_task(  152): [GPS] /system/bin/navl_server --android_log NAVD-p3 -nav"-c/system/bin/pathconfigfile.txt"
+D/mcp_common_task(  152): [GPS] MCP | initializing sighandler
+D/mcp_common_task(  152): [GPS] No such file or directory
+D/mcp_common_task(  152): [GPS] MCP | main | starting...
+D/mcp_common_task(  152): [GPS] Note: this task requires root priviledges
+D/nav_main(  152): [GPS] Get maps file from /proc/152/maps and save to /data/tigps/logs/navl_server_maps.txt ver=1.00
+I/NAVD-p3 (  152): MCP_MAIN((null)):pla_cmdParse_GeneralCmdLine: cmd line "/system/bin/navl_server --android_log NAVD-p3 -nav"-c/system/ (207@vendor/ti/gps/mcp/gps/MCP_Common/Platform/os/LINUX/common/pla_cmdParse.c)
+I/NAVD-p3 (  152):  SERVER_MCPF((null)):***** MCP_Init: mcpf_create() SUCCESS! nav_str = -p3 -c/system/bin/pathconfigfile.txt ***** (167@vendor/ti/gps/mcp/gps/BL_1_3/NAVL_Server/nav_main.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):NAVC_Create:cmdline agr: -p3 -c/system/bin/pathconfigfile.txt (134@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/navc_main.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):***** NAVC_Create() 2 ***** (136@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/navc_main.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):***** NAVC_Create() 3 ***** (145@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/navc_main.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):***** NAVC_Create() 4 ***** (157@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/navc_main.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):***** NAVC_Create() 5 ***** (167@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/navc_main.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):***** NAVC_Create() 6 ***** (179@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/navc_main.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):***** NAVC_Create() 7 ***** (192@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/navc_main.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):***** NAVC_Create() 8 ***** (205@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/navc_main.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):***** NAVC_Create() 9 ***** (219@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/navc_main.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):***** NAVC_Create() 10 ***** (235@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/navc_main.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):***** NAVC_Create() 11 ***** (269@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/navc_main.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):***** NAVC_Create() 12 ***** (279@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/navc_main.c)
+E/NAVD-p3 (  152):  SERVER_NAVC((null)):navcTime_init: gpsweek=1745,gpsmsec = 219025000, GPSSec = 1055595025  (122@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/navc_time.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):Control File: /system/bin/pathconfigfile.txt (289@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/navc_main.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):NavcSm: State=NULL   , Event=CREATE   (128@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/navc_sm.c)
+W/SRS_ProcPA(  143): Reading CFG - /system/etc/soundimage/srs_global.cfg
+I/AudioFlinger(  143): createPCMInfoFile start
+D/libEGL  (  140): loaded /system/lib/egl/libGLESv2_tegra.so
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):gpsc_parse_control_file (1115@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/Core/gpsc_app_api.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):gpsc_parse_control_file: opened control file - /system/bin/pathconfigfile.txt (1127@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/Core/gpsc_app_api.c)
+I/SurfaceFlinger(  140): EGL informations:
+I/SurfaceFlinger(  140): # of configs : 50
+I/SurfaceFlinger(  140): vendor    : Android
+I/SurfaceFlinger(  140): version   : 1.4 Android META-EGL
+I/SurfaceFlinger(  140): extensions: EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_NV_system_time EGL_ANDROID_image_native_buffer 
+I/SurfaceFlinger(  140): Client API: OpenGL ES
+I/SurfaceFlinger(  140): EGLSurface: 8-8-8-8, config=0x3
+I/SurfaceFlinger(  140): OpenGL informations:
+I/SurfaceFlinger(  140): vendor    : NVIDIA Corporation
+I/SurfaceFlinger(  140): renderer  : NVIDIA AP
+I/SurfaceFlinger(  140): version   : OpenGL ES-CM 1.1
+I/SurfaceFlinger(  140): extensions: GL_EXT_bgra GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_s3tc GL_EXT_texture_format_BGRA8888 GL_EXT_unpack_subimage GL_NV_texture_npot_2D_mipmap GL_OES_byte_coordinates GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_paletted_texture GL_OES_draw_texture GL_OES_extended_matrix_palette GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_fbo_render_mipmap GL_OES_fixed_point GL_OES_framebuffer_object GL_OES_matrix_get GL_OES_matrix_palette GL_OES_point_size_array GL_OES_point_sprite GL_OES_query_matrix GL_OES_read_format GL_OES_rgb8_rgba8 GL_OES_single_precision GL_OES_stencil8 GL_OES_texture_cube_map GL_OES_vertex_half_float 
+I/SurfaceFlinger(  140): GL_MAX_TEXTURE_SIZE = 2048
+I/SurfaceFlinger(  140): GL_MAX_VIEWPORT_DIMS = 3839 x 3839
+I/SurfaceFlinger(  140): flags = 00000000
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):GPSC_CONFIG_FILE: /system/bin/GPSCConfigFile.cfg (1145@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/Core/gpsc_app_api.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):PATCH_FILE: /system/bin/patch-X.0.ce (1150@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/Core/gpsc_app_api.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):AIDING_PATH: /data/tigps/aiding/ (1155@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/Core/gpsc_app_api.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):SENSOR_NVM_PATH: /data/tigps/logs/ (1258@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/Core/gpsc_app_api.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):LOGGER_CONTROL: 0x0 (1173@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/Core/gpsc_app_api.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):gpsc_parse_control_file: closing path config file (1275@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/Core/gpsc_app_api.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):gpsc_parse_control_file: end (1280@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/Core/gpsc_app_api.c)
+I/NAVD-p3 (  152): MCP_HAL_FS((null)):MCP_HAL_FS_Open: opened /system/bin/GPSCConfigFile.cfg (306@vendor/ti/gps/mcp/gps/MCP_Common/Platform/os/LINUX/common/mcp_hal_fs.c)
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):Enter gpsc_app_init_req (1688@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/Core/gpsc_app_api.c)
+D/gpsc_msg(  152): gpsc_log_ctrl: LogMode: 0, Sensor: 2 Session: 7
+I/NAVD-p3 (  152):  SERVER_NAVC((null)):GIS: gpsc_log_ctrl: LogMode: 0, Sensor: 2 Session: 7 (167@vendor/ti/gps/mcp/gps/BL_1_3/NaviLink/NAVC/Core/gpsc_msg.c)
+D/nav_log_msg(  152): SessLog: nav_sess_log_init: navLogData: 40151e4c
+D/gpsc_msg(  152): Created '/data/tigps/logs/ToSensor.dat' to log sensor data
+D/gpsc_msg(  152): Created '/data/tigps/logs/FromSensor.dat' to log sensor data
+D/gpsc_msg(  152): SW Ver: NaviLink_MCP2.6_RC1.9,   NaviLink Ver: Navilink_MCP2.6_BL1.9.3
+D/gpsc_msg(  152): GPSC SM Status: Starting Init Sequence
+D/gpsc_msg(  152): Sequence Start: INIT  
+D/gpsc_msg(  152): gpsc_init_priority: setting supl and control plane priority 
+D/gpsc_msg(  152): Navc_Set_Priority 
+D/gpsc_msg(  152): Navc_PriorityTable_Search 
+D/gpsc_msg(  152): Navc_Set_Priority 
+D/gpsc_msg(  152): Navc_PriorityTable_Search 
+D/gpsc_msg(  152): Navc_Set_Priority 
+D/gpsc_msg(  152): Navc_PriorityTable_Search 
+D/gpsc_msg(  152): Navc_Set_Priority 
+D/gpsc_msg(  152): Navc_PriorityTable_Search 
+D/gpsc_msg(  152): Navc_Set_Priority 
+D/gpsc_msg(  152): Navc_PriorityTable_Search 
+D/gpsc_msg(  152): Navc_Set_Priority 
+D/gpsc_msg(  152): Navc_PriorityTable_Search 
+D/gpsc_msg(  152): Navc_Set_Priority 
+D/gpsc_msg(  152): Navc_PriorityTable_Search 
+D/gpsc_msg(  152): Navc_Set_Priority 
+D/gpsc_msg(  152): Navc_PriorityTable_Search 
+D/gpsc_msg(  152): Navc_Set_Priority 
+D/gpsc_msg(  152): Navc_PriorityTable_Search 
+D/gpsc_msg(  152): Navc_Set_Priority 
+D/gpsc_msg(  152): Navc_PriorityTable_Search 
+D/gpsc_msg(  152): Navc_Set_Priority 
+D/gpsc_msg(  152): Navc_PriorityTable_Search 
+D/gpsc_msg(  152): Status: GPSC Initialised
+D/nav_log_msg(  152): SessLog: nav_sess_log_init: navLogData: 40151e4c
+D/suplc_main(  152): SUPL_Create: Entering. 
+D/suplc_main(  152): suplcRegisterHandlers: Entering 
+D/suplc_main(  152): suplcRegisterHandlers: Exiting Successfully 
+D/suplc_main(  152):  suplcEnableMessageQueues: Entering 
+D/suplc_main(  152):  suplcEnableMessageQueues: Exiting Successfully 
+D/suplc_outEvt(  152):  SUPLC_registerAssistanceSource: Entering 
+D/suplc_outEvt(  152):  suplcSendMessage: NAVC_CMD_REGISTER_ASSIST_SRC  
+D/suplc_outEvt(  152):  suplcSendMessage: Entering 
+D/suplc_outEvt(  152):  suplcSendMessage: Exiting Successfully 
+D/suplc_outEvt(  152):  SUPLC_registerAssistanceSource: Exiting Successfully 
+D/suplc_main(  152): SUPL_Create: Exiting Successfully 
+D/mcp_hal_socket(  152): [HGPS] mcp_hal_socket_Accept ++ create server socket
+I/NvAudioALSADevice(  143): NvAudioALSADevice constructor
+I/HTC_Acoustic(  143): read pcbid: 128
+D/HTC_Acoustic(  143): failed to open file /system/etc/AIC3008_REG_MFG.csv: No such file or directory (2).
+I/HTC_Acoustic(  143): open /system/etc/AIC3008_REG_DualMic.csv success.
+I/HTC_Acoustic(  143): loading CSV file: /system/etc/AIC3008_REG_DualMic.csv
+I/HTC_Acoustic(  143): Codec dsp path: /system/etc/soundimage/CodecDSPID.txt
+I/HTC_Acoustic(  143): open /system/etc/soundimage/CodecDSPID.txt success.
+I/HTC_Acoustic(  143): Codec dsp mapping table version:  ENR_soundeffet_2012_0312
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_BT_CarMode.txt success.
+I/HTC_Acoustic(  143): (Phone_Default,/system/etc/soundimage/Sound_BT_CarMode.txt) with index 0
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Phone_Original_REC.txt success.
+W/zipro   (  228): Unable to open zip '/system/etc/customer/bootanimation.zip': No such file or directory
+D/HtcBootAnimation(  228): Get cid:HTCCN701
+D/HtcBootAnimation(  228): filepath:/system/customize/CID/HTCCN701.xml
+D/HtcBootAnimation(  228): Load /system/customize/CID/default.xml 
+I/HTC_Acoustic(  143): (Phone_Receiver_Dualmic,/system/etc/soundimage/Sound_Phone_Original_REC.txt) with index 1
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Phone_Original_SPK.txt success.
+W/zipro   (  228): Unable to open zip '/system/customize/resource/hTC_bootup_one.zip': No such file or directory
+I/HTC_Acoustic(  143): (Phone_Speaker_Dualmic,/system/etc/soundimage/Sound_Phone_Original_SPK.txt) with index 2
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Phone_Original_HP.txt success.
+E/HtcBootAnimation(  228): sqlite3_open error, sqlite result: 14, errno: 2, No such file or directory
+D/libEGL  (  228): loaded /system/lib/egl/libEGL_tegra.so
+D/libEGL  (  228): loaded /system/lib/egl/libGLESv1_CM_tegra.so
+I/HTC_Acoustic(  143): (Phone_Headset,/system/etc/soundimage/Sound_Phone_Original_HP.txt) with index 3
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Phone_Original_REC.txt success.
+D/libEGL  (  228): loaded /system/lib/egl/libGLESv2_tegra.so
+D/HtcBootAnimation(  228): movie
+D/HtcBootAnimation(  228): Parse the description file
+I/HTC_Acoustic(  143): (Phone_HAC,/system/etc/soundimage/Sound_Phone_Original_REC.txt) with index 4
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Phone_Original_HP.txt success.
+D/HtcBootAnimation(  228): play animation 0!
+D/uim-sysfs: (  135): uim:found bluetooth rfkill entry @ 0
+D/uim-sysfs: (  135): 
+D/uim-sysfs: (  135): uim:changed permissions for /sys/class/rfkill/rfkill0/state(0) 
+D/uim-sysfs: (  135): 
+I/HTC_Acoustic(  143): (Phone_TTY,/system/etc/soundimage/Sound_Phone_Original_HP.txt) with index 5
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Phone_Original_BT.txt success.
+I/HTC_Acoustic(  143): (Phone_BT,/system/etc/soundimage/Sound_Phone_Original_BT.txt) with index 6
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Phone_Original_DOCK.txt success.
+I/HTC_Acoustic(  143): (Phone_Dock,/system/etc/soundimage/Sound_Phone_Original_DOCK.txt) with index 7
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Original_HP.txt success.
+I/HTC_Acoustic(  143): (Playback_Default,/system/etc/soundimage/Sound_Original_HP.txt) with index 8
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Original_SPK.txt success.
+I/HTC_Acoustic(  143): (Playback_Speaker_Default,/system/etc/soundimage/Sound_Original_SPK.txt) with index 9
+D/HTC_Acoustic(  143): failed to open file /system/etc/soundimage/Sound_Original_HP_Generic.txt: No such file or directory (2).
+E/HTC_Acoustic(  143): read AIC3008 para from file failed -1
+D/HTC_Acoustic(  143): failed to open file /system/etc/soundimage/Sound_Original_HP_urBeats.txt: No such file or directory (2).
+E/HTC_Acoustic(  143): read AIC3008 para from file failed -1
+D/HTC_Acoustic(  143): failed to open file /system/etc/soundimage/Sound_Original_HP_Solo.txt: No such file or directory (2).
+E/HTC_Acoustic(  143): read AIC3008 para from file failed -1
+D/HTC_Acoustic(  143): failed to open file /system/etc/soundimage/Sound_Original_HP_Pro.txt: No such file or directory (2).
+E/HTC_Acoustic(  143): read AIC3008 para from file failed -1
+D/HTC_Acoustic(  143): failed to open file /system/etc/soundimage/Sound_Original_HP_Studio.txt: No such file or directory (2).
+E/HTC_Acoustic(  143): read AIC3008 para from file failed -1
+D/HTC_Acoustic(  143): failed to open file /system/etc/soundimage/Sound_Original_SPK_Beats.txt: No such file or directory (2).
+E/HTC_Acoustic(  143): read AIC3008 para from file failed -1
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Original_DOCK.txt success.
+I/HTC_Acoustic(  143): (Playback_Dock,/system/etc/soundimage/Sound_Original_DOCK.txt) with index 10
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Original_SPK_RING.txt success.
+I/HTC_Acoustic(  143): (Playback_SPK_Ring,/system/etc/soundimage/Sound_Original_SPK_RING.txt) with index 11
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Original.txt success.
+I/HTC_Acoustic(  143): (Record_Default,/system/etc/soundimage/Sound_Original.txt) with index 12
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Original_Recording.txt success.
+I/HTC_Acoustic(  143): (Record_V_Mono,/system/etc/soundimage/Sound_Original_Recording.txt) with index 13
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Rec_Landscape.txt success.
+I/HTC_Acoustic(  143): (Record_V_IMIC_Landscape_Stereo,/system/etc/soundimage/Sound_Rec_Landscape.txt) with index 14
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Rec_Portrait.txt success.
+I/HTC_Acoustic(  143): (Record_V_IMIC_Portrait_Stereo,/system/etc/soundimage/Sound_Rec_Portrait.txt) with index 15
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Voice_Recording_AMR.txt success.
+I/HTC_Acoustic(  143): (Record_A_VoiceRecoder_AMR,/system/etc/soundimage/Sound_Voice_Recording_AMR.txt) with index 16
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Original_Recording.txt success.
+I/HTC_Acoustic(  143): (Record_A_VoiceRecoder_AAC,/system/etc/soundimage/Sound_Original_Recording.txt) with index 17
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Note_Recording.txt success.
+I/HTC_Acoustic(  143): (Record_A_Note_Recording,/system/etc/soundimage/Sound_Note_Recording.txt) with index 18
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_SpeakerVR_Recording.txt success.
+I/HTC_Acoustic(  143): (Record_A_Speaker_VR,/system/etc/soundimage/Sound_SpeakerVR_Recording.txt) with index 19
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_FM_HP.txt success.
+I/HTC_Acoustic(  143): (FM_Headset,/system/etc/soundimage/Sound_FM_HP.txt) with index 20
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_FM_SPK.txt success.
+I/HTC_Acoustic(  143): (FM_Speaker,/system/etc/soundimage/Sound_FM_SPK.txt) with index 21
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Voip_Original_REC.txt success.
+I/HTC_Acoustic(  143): (VOIP_Receiver,/system/etc/soundimage/Sound_Voip_Original_REC.txt) with index 22
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Voip_Original_SPK.txt success.
+I/HTC_Acoustic(  143): (VOIP_Speaker,/system/etc/soundimage/Sound_Voip_Original_SPK.txt) with index 23
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Voip_Original_HP.txt success.
+I/HTC_Acoustic(  143): (VOIP_Headset,/system/etc/soundimage/Sound_Voip_Original_HP.txt) with index 24
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Voip_Original_BT.txt success.
+I/HTC_Acoustic(  143): (VOIP_BT,/system/etc/soundimage/Sound_Voip_Original_BT.txt) with index 25
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Voip_Original_REC_AEC.txt success.
+I/HTC_Acoustic(  143): (VOIP_Receiver_HW_AEC,/system/etc/soundimage/Sound_Voip_Original_REC_AEC.txt) with index 26
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Voip_Original_SPK_AEC.txt success.
+I/HTC_Acoustic(  143): (VOIP_Speaker_HW_AEC,/system/etc/soundimage/Sound_Voip_Original_SPK_AEC.txt) with index 27
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Voip_Original_HP_AEC.txt success.
+I/HTC_Acoustic(  143): (VOIP_Headset_HW_AEC,/system/etc/soundimage/Sound_Voip_Original_HP_AEC.txt) with index 28
+I/HTC_Acoustic(  143): open /system/etc/soundimage/Sound_Voip_Original_BT_AEC.txt success.
+I/HTC_Acoustic(  143): (VOIP_BT_HW_AEC,/system/etc/soundimage/Sound_Voip_Original_BT_AEC.txt) with index 29
+I/HTC_Acoustic(  143): htc_effect_mask = 0xfff038fe
+I/NvAudioALSADevice(  143): Load set_call_volume_index success
+I/NvAudioALSADevice(  143): Load set_bt_name_index success
+I/NvAudioALSADevice(  143): Load init_path success
+I/NvAudioALSADevice(  143): Load init_gain success
+I/AudioFlinger(  143): Loaded primary audio interface from LEGACY Audio HW HAL (audio)
+I/AudioFlinger(  143): Using 'LEGACY Audio HW HAL' (audio.primary) as the primary audio interface
+I/SamplingProfilerIntegration(  141): Profiling disabled.
+I/AudioFlinger(  143): Loaded a2dp audio interface from A2DP Audio HW HAL (audio)
+I/NvAudioALSADevice(  143): NvAudioALSADevice::setMode(mode 0)
+I/CameraService(  143): CameraService started (pid=143)
+D/AudioFlinger(  143): registerClient() client 0x8c918, pid 143
+D/AudioFlinger(  143): acquiring 1 from 143
+I/Zygote  (  141): Preloading classes...
+D/dalvikvm(  141): GC_EXPLICIT freed 45K, 73% free 556K/2048K, paused 0ms+0ms
+D/dalvikvm(  141): GC_EXPLICIT freed 4K, 70% free 621K/2048K, paused 0ms+0ms
+D/NvOsDebugPrintf(  143): NvxLiteH264DecoderInit : Opening TVMR H264 block 
+D/NvOsDebugPrintf(  143): NvxLiteH264DecoderSecureInit : Opening TVMR H264 block 
+D/AwesomePlayer(  143): Failed to open file, all profile flags have to set through setprop method.
+I/AwesomePlayer(  143): setDataSource_l('/system/media/audio/ui/camera_click.ogg')
+I/MP3Extractor(  143): 4851 bytes less then 128KB
+I/AACExtractor(  143): 4851 bytes less then 128KB
+V/AACExtractor(  143): cachedDataRemaining = 4851
+V/AACExtractor(  143): kMaxBytesChecked = 4851
+V/AACExtractor(  143): L=655, may not be AAC content
+W/MediaPlayer(  143): info/warning (1, 902)
+D/AudioFlinger(  143): acquiring 2 from 143
+D/AwesomePlayer(  143): Failed to open file, all profile flags have to set through setprop method.
+I/AwesomePlayer(  143): setDataSource_l('/system/media/audio/ui/VideoRecord.ogg')
+I/MP3Extractor(  143): 5582 bytes less then 128KB
+I/AACExtractor(  143): 5582 bytes less then 128KB
+V/AACExtractor(  143): cachedDataRemaining = 5582
+V/AACExtractor(  143): kMaxBytesChecked = 5582
+V/AACExtractor(  143): L=655, may not be AAC content
+W/MediaPlayer(  143): info/warning (1, 902)
+D/dalvikvm(  141): GC_EXPLICIT freed 13K, 68% free 665K/2048K, paused 2ms+0ms
+D/NvOmxCameraSettingsParser(  143): NvOmxCameraSettingsParser constructor
+I/NvOmxCamera(  143): NvOmxCamera mCurrSensorId = 0 
+D/NvOmxCamera(  143): [CAM] [Calibration] +++ start write camera calibration data from WDM +++
+E/STT:mtd_quo(  143): mtd_open(): cannot find MTD partition [WDM]!
+D/STT:emmc_quo(  143): found emmc partition [WDM]=[mmcblk0p2]
+E/STT:emmc_quo(  143): emmc_open(): /dev/block/mmcblk0p2: Permission denied
+E/STT:partition_quo(  143): partition_open(): cannot find partition [WDM]!
+E/NvOmxCamera(  143): [CAM] [Calibration] open file ["WDM"] failed, errno = 13 (Permission denied)
+D/NvOsDebugPrintf(  143): NvCameraSyncPointThread is created.
+D/dalvikvm(  141): Note: class Lcom/android/internal/telephony/IHtcTelephony$Stub; has 162 unimplemented (abstract) methods
+D/OLAWORK (  143): create OlaEngine
+D/dalvikvm(  141): GC_EXPLICIT freed 11K, 66% free 706K/2048K, paused 1ms+1ms
+D/OLAWORK (  143): create Ola FD
+D/NvOsDebugPrintf(  143): NvOmxCamera::NvOmxHtcHalThread ++
+D/OLAWORK (  143): create OlaEngine2
+D/dalvikvm(  141): GC_EXPLICIT freed 29K, 65% free 733K/2048K, paused 1ms+0ms
+I/NvAudioALSA(  143): NvAudioALSADevOpen: PLAYBACK hDev = 0x8c278 : devices 0x2 in mode 0, streamtype 0, isVoiceCallDevice=F
+I/NvAudioALSA(  143): Initialized ALSA PLAYBACK alsaDevName= music , hDev->alsaDevName= music
+I/NvAudioALSA(  143): NvAudioALSADevRoute : hDev=0x8c278 curDev=0x80000, devices=0x2, curMode=0, mode=0, curDsp=-1, Ori_up=-1, Ori_down=-1
+D/HTC_Acoustic(  143): get_dsp_image_index : HTC_CODEC_DSP_ENDPOINT[13].index = 9
+D/HTC_Acoustic(  143): get_dsp_image_name : HTC_CODEC_DSP_ENDPOINT[13].name = Playback_Speaker_Default
+I/NvAudioALSA(  143): Config AIC3008 DSP : 9 (Playback_Speaker_Default)
+D/OLAWORK (  143): create Ola FD2
+D/OLAWORK (  143): create Ola SD
+D/OLAWORK (  143): create Ola BD
+I/NvAudioALSA(  143): Pcm Playback Route : 10
+D/AudioMixer(  143): checkBeatsHeadset: 0
+I/AudioMixer(  143): BeatsBass_applyPara
+D/AudioMixer(  143): size of systemcfg 9224
+D/AudioMixer(  143): size of parameqstruct 27940
+D/AudioMixer(  143): size of complimstruct 49376
+D/AudioMixer(  143): size of bstructLR 77984
+D/AudioMixer(  143): Beats Effect: config frame 16
+D/AudioMixer(  143): Load file /system/etc/peqimage_gec.bin filesize 132 paramsize 27940 fsize_read 132
+D/AudioMixer(  143): Load file /system/etc/dynimage_gec.bin filesize 160 paramsize 49376 fsize_read 160
+D/AudioMixer(  143): Load file /system/etc/basimage_gec.bin filesize 256 paramsize 77984 fsize_read 256
+D/AudioFlinger(  143): openOutput() created mixer output: ID 3 thread 0x2daad0
+D/AudioFlinger(  143): PlaybackThread::audioConfigChanged_l, thread 0x2daad0, event 0, param 0
+D/AudioFlinger(  143): setParameters(): io 3, keyvalue routing=2, tid 266, calling tid 143
+I/AudioFlinger(  143): createPCMInfoFile start
+I/AudioFlinger(  143): AudioFlinger's thread 0x2daad0 ready to run
+W/AudioFlinger(  143): Thread AudioOut_3 cannot connect to the power manager service
+I/NvAudioALSA(  143): setParameters() getCurrentState,Downlink
+I/NvAudioALSARenderer(  143): Needless to clean buffer.
+I/NvAudioALSA(  143): NvAudioALSADevRoute : hDev=0x8c278 curDev=0x2, devices=0x2, curMode=0, mode=0, curDsp=13, Ori_up=-1, Ori_down=10
+D/HTC_Acoustic(  143): get_dsp_image_index : HTC_CODEC_DSP_ENDPOINT[13].index = 9
+D/HTC_Acoustic(  143): get_dsp_image_name : HTC_CODEC_DSP_ENDPOINT[13].name = Playback_Speaker_Default
+I/NvAudioALSA(  143): Config AIC3008 DSP : 9 (Playback_Speaker_Default)
+I/NvAudioALSA(  143): Pcm Playback Route : 10
+I/AudioPolicyService(  143): Loaded audio policy from LEGACY Audio Policy HAL (audio_policy)
+I/NvAudioALSA(  143): NvAudioALSADevClose: PLAYBACK hDev = 0x8c278 : curDev 0x2, curMode 0, streamtype 0, isVoiceCallDevice=F hDev->alsaDevName=music, Ori_up=-1, Ori_down=10
+I/NvAudioALSA(  143): UPLINK_PATH_OFF + DOWNLINK_PATH_OFF
+D/NvOsDebugPrintf(  143): NvMMLiteBlockCreate : Block : BlockType = 1 
+D/NvOsDebugPrintf(  143): NvMMLiteJPEGEncGetBufferRequirements : BufferSize 6005760
+D/dalvikvm(  141): GC_EXPLICIT freed 15K, 63% free 773K/2048K, paused 0ms+0ms
+D/CursorWindowStats(  141): Get CursorWindow size from framework resource:2097152
+D/ProfileConfig(  141): sharekey: reading property:ro.htc.sharekey.spkg.1.2 ,value:
+D/ProfileConfig(  141): sharekey reading orig property: ro.htc.sharekey.spkg, value: 
+D/ProfileConfig(  141): sharekey: reading property:ro.htc.sharekey.sact.1.2 ,value:
+D/ProfileConfig(  141): sharekey reading orig property: ro.htc.sharekey.sact, value: 
+D/ProfileConfig(  141): sharekey: reading property:ro.htc.sharekey.sint.1.2 ,value:
+D/ProfileConfig(  141): sharekey reading orig property: ro.htc.sharekey.sint, value: 
+D/ProfileConfig(  141): share key short press:get default intent - package:com.sina.mfweibo, activity:com.sina.mfweibo.EditActivity, action:
+D/ProfileConfig(  141): sharekey: reading property:ro.htc.sharekey.lpkg.1.2 ,value:
+D/ProfileConfig(  141): sharekey reading orig property: ro.htc.sharekey.lpkg, value: 
+D/ProfileConfig(  141): sharekey: reading property:ro.htc.sharekey.lact.1.2 ,value:
+D/ProfileConfig(  141): sharekey reading orig property: ro.htc.sharekey.lact, value: 
+D/ProfileConfig(  141): sharekey: reading property:ro.htc.sharekey.lint.1.2 ,value:
+D/ProfileConfig(  141): sharekey reading orig property: ro.htc.sharekey.lint, value: 
+D/ProfileConfig(  141): share key long press:get default intent - package:com.sina.mfweibo, activitycom.sina.mfweibo.LookAroundListActivity, action:
+D/dalvikvm(  141): GC_EXPLICIT freed 30K, 62% free 798K/2048K, paused 0ms+0ms
+W/Zygote  (  141): Class not found for preloading: android.graphics.Bitmap$2
+D/dalvikvm(  141): GC_EXPLICIT freed 31K, 60% free 831K/2048K, paused 1ms+1ms
+D/TextLayoutCache(  141): Using debug level: 0 - Debug Enabled: 0
+W/Zygote  (  141): Class not found for preloading: android.media.AudioManager$2
+I/dalvikvm(  141): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+D/MtpDeviceJNI(  141): register_android_mtp_MtpDevice
+I/dalvikvm(  141): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+I/dalvikvm(  141): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+I/dalvikvm(  141): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+D/dalvikvm(  141): GC_EXPLICIT freed 12K, 57% free 897K/2048K, paused 1ms+0ms
+W/Zygote  (  141): Class not found for preloading: android.media.IRemoteControlClientDispatcher
+W/Zygote  (  141): Class not found for preloading: android.media.IRemoteControlClientDispatcher$Stub
+D/dalvikvm(  141): GC_EXPLICIT freed 12K, 54% free 947K/2048K, paused 1ms+1ms
+D/dalvikvm(  141): GC_EXPLICIT freed 258K, 38% free 1285K/2048K, paused 0ms+1ms
+D/dalvikvm(  141): GC_EXPLICIT freed 28K, 36% free 1313K/2048K, paused 0ms+1ms
+D/dalvikvm(  141): GC_EXPLICIT freed 8K, 33% free 1374K/2048K, paused 1ms+1ms
+D/HtcBootAnimation(  228): play animation 1!
+D/dalvikvm(  141): GC_EXPLICIT freed 21K, 31% free 1420K/2048K, paused 0ms+17ms
+D/dalvikvm(  141): GC_EXPLICIT freed 25K, 16% free 1721K/2048K, paused 0ms+1ms
+W/Zygote  (  141): Class not found for preloading: android.text.TextDirectionHeuristics$CharCount
+W/Zygote  (  141): Class not found for preloading: android.text.method.WordIterator$1
+D/dalvikvm(  141): GC_EXPLICIT freed 35K, 15% free 1749K/2048K, paused 1ms+1ms
+D/dalvikvm(  141): GC_EXPLICIT freed 35K, 14% free 1774K/2048K, paused 1ms+1ms
+I/dalvikvm(  141): threadid=1: recursive native library load attempt (/system/lib/libwebcore.so)
+D/dalvikvm(  141): No JNI_OnLoad found in /system/lib/libchromium_net.so 0x0, skipping init
+I/dalvikvm(  141): threadid=1: recursive native library load attempt (/system/lib/libwebcore.so)
+D/dalvikvm(  141): GC_EXPLICIT freed 24K, 11% free 1841K/2048K, paused 1ms+14ms
+W/Zygote  (  141): Class not found for preloading: android.widget.EdgeGlow
+D/dalvikvm(  141): GC_EXPLICIT freed 22K, 9% free 1871K/2048K, paused 1ms+1ms
+D/dalvikvm(  141): GC_EXPLICIT freed 74K, 7% free 1915K/2048K, paused 1ms+28ms
+E/PhonePolicy(  141): Could not preload class for phone policy: com.android.internal.policy.impl.PhoneWindow$ContextMenuCallback
+D/dalvikvm(  141): GC_EXPLICIT freed 28K, 6% free 1940K/2048K, paused 1ms+1ms
+D/dalvikvm(  141): GC_EXPLICIT freed 33K, 4% free 1973K/2048K, paused 1ms+1ms
+D/dalvikvm(  141): GC_EXPLICIT freed 26K, 3% free 2003K/2048K, paused 1ms+1ms
+D/dalvikvm(  141): GC_EXPLICIT freed 33K, 4% free 2034K/2115K, paused 1ms+1ms
+D/dalvikvm(  141): GC_EXPLICIT freed 35K, 3% free 2055K/2115K, paused 1ms+1ms
+D/dalvikvm(  141): GC_EXPLICIT freed 66K, 4% free 2108K/2179K, paused 1ms+1ms
+D/dalvikvm(  141): GC_EXPLICIT freed 41K, 3% free 2121K/2179K, paused 1ms+1ms
+I/System  (  141): Loaded time zone names for  in 639ms (636ms in ICU)
+I/System  (  141): Loaded time zone names for en_US in 309ms (306ms in ICU)
+I/System  (  141): Loaded time zone names for zh_CN in 189ms (186ms in ICU)
+D/dalvikvm(  141): GC_EXPLICIT freed 476K, 19% free 2290K/2819K, paused 1ms+2ms
+D/dalvikvm(  141): GC_EXPLICIT freed 16K, 17% free 2353K/2819K, paused 1ms+1ms
+D/dalvikvm(  141): GC_EXPLICIT freed 51K, 16% free 2384K/2819K, paused 1ms+2ms
+D/dalvikvm(  141): GC_EXPLICIT freed 28K, 15% free 2416K/2819K, paused 1ms+1ms
+D/dalvikvm(  141): GC_EXPLICIT freed 38K, 14% free 2432K/2819K, paused 1ms+2ms
+D/dalvikvm(  141): GC_EXPLICIT freed 32K, 13% free 2455K/2819K, paused 1ms+1ms
+I/Zygote  (  141): ...preloaded 2296 classes in 5208ms.
+D/dalvikvm(  141): GC_EXPLICIT freed 23K, 13% free 2458K/2819K, paused 2ms+1ms
+I/Zygote  (  141): Preloading resources...
+W/Zygote  (  141): Preloaded drawable resource #0x10804d7 (res/drawable-xhdpi/spinner_black_16.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804d8 (res/drawable-xhdpi/spinner_black_20.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804d9 (res/drawable-xhdpi/spinner_black_48.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804da (res/drawable-xhdpi/spinner_black_76.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804e8 (res/drawable-xhdpi/spinner_white_16.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804e9 (res/drawable-xhdpi/spinner_white_48.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804ea (res/drawable-xhdpi/spinner_white_76.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080096 (res/drawable-xhdpi/toast_frame.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10805ce (res/drawable-xhdpi/toast_frame_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080106 (res/drawable-xhdpi/btn_check_on_selected.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080105 (res/drawable-xhdpi/btn_check_on_pressed_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080104 (res/drawable-xhdpi/btn_check_on_pressed_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080103 (res/drawable-xhdpi/btn_check_on_pressed.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080102 (res/drawable-xhdpi/btn_check_on_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080101 (res/drawable-xhdpi/btn_check_on_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800ff (res/drawable-xhdpi/btn_check_on_focused_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800fe (res/drawable-xhdpi/btn_check_on_focused_holo_dark.png) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 29K, 12% free 2483K/2819K, paused 1ms+1ms
+W/Zygote  (  141): Preloaded drawable resource #0x10800fd (res/drawable-xhdpi/btn_check_on_disabled_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800fc (res/drawable-xhdpi/btn_check_on_disabled_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800fb (res/drawable-xhdpi/btn_check_on_disabled_focused_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800fa (res/drawable-xhdpi/btn_check_on_disabled_focused_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800f6 (res/drawable-xhdpi/btn_check_on_disable_focused.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800f5 (res/drawable-xhdpi/btn_check_on_disable.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800f4 (res/drawable-xhdpi/btn_check_on.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800f3 (res/drawable-xhdpi/btn_check_off_selected.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800f2 (res/drawable-xhdpi/btn_check_off_pressed_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800f1 (res/drawable-xhdpi/btn_check_off_pressed_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800f0 (res/drawable-xhdpi/btn_check_off_pressed.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800ed (res/drawable-xhdpi/btn_check_off_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800ec (res/drawable-xhdpi/btn_check_off_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800ea (res/drawable-xhdpi/btn_check_off_focused_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800e9 (res/drawable-xhdpi/btn_check_off_focused_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800e8 (res/drawable-xhdpi/btn_check_off_disabled_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800e7 (res/drawable-xhdpi/btn_check_off_disabled_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800e6 (res/drawable-xhdpi/btn_check_off_disabled_focused_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800e5 (res/drawable-xhdpi/btn_check_off_disabled_focused_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800e0 (res/drawable-xhdpi/btn_check_off_disable_focused.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800df (res/drawable-xhdpi/btn_check_off_disable.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800dd (res/drawable-xhdpi/btn_check_label_background.9.png) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 41K, 12% free 2499K/2819K, paused 2ms+2ms
+W/Zygote  (  141): Preloaded drawable resource #0x10800dc (res/drawable/btn_check_holo_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800db (res/drawable/btn_check_holo_dark.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800d8 (res/drawable/btn_check.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080196 (res/drawable-xhdpi/btn_radio_on_selected.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080195 (res/drawable-xhdpi/btn_radio_on_pressed_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080194 (res/drawable-xhdpi/btn_radio_on_pressed_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080193 (res/drawable-xhdpi/btn_radio_on_pressed.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080192 (res/drawable-xhdpi/btn_radio_on_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080191 (res/drawable-xhdpi/btn_radio_on_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108018f (res/drawable-xhdpi/btn_radio_on_focused_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108018e (res/drawable-xhdpi/btn_radio_on_focused_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108018d (res/drawable-xhdpi/btn_radio_on_disabled_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108018c (res/drawable-xhdpi/btn_radio_on_disabled_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108018b (res/drawable-xhdpi/btn_radio_on_disabled_focused_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108018a (res/drawable-xhdpi/btn_radio_on_disabled_focused_holo_dark.png) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 40K, 11% free 2516K/2819K, paused 1ms+1ms
+W/Zygote  (  141): Preloaded drawable resource #0x1080189 (res/drawable-xhdpi/btn_radio_on.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080188 (res/drawable-xhdpi/btn_radio_off_selected.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080187 (res/drawable-xhdpi/btn_radio_off_pressed_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080186 (res/drawable-xhdpi/btn_radio_off_pressed_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080185 (res/drawable-xhdpi/btn_radio_off_pressed.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080184 (res/drawable-xhdpi/btn_radio_off_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080183 (res/drawable-xhdpi/btn_radio_off_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080181 (res/drawable-xhdpi/btn_radio_off_focused_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080180 (res/drawable-xhdpi/btn_radio_off_focused_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108017f (res/drawable-xhdpi/btn_radio_off_disabled_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108017e (res/drawable-xhdpi/btn_radio_off_disabled_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108017d (res/drawable-xhdpi/btn_radio_off_disabled_focused_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108017c (res/drawable-xhdpi/btn_radio_off_disabled_focused_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108017a (res/drawable-xhdpi/btn_radio_label_background.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080009 (res/drawable/btn_radio.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080130 (res/drawable-xhdpi/btn_default_transparent_normal.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108012e (res/drawable-xhdpi/btn_default_small_selected.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108012d (res/drawable-xhdpi/btn_default_small_pressed.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108012c (res/drawable-xhdpi/btn_default_small_normal_disable_focused.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108012b (res/drawable-xhdpi/btn_default_small_normal_disable.9.png) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 40K, 11% free 2533K/2819K, paused 2ms+2ms
+W/Zygote  (  141): Preloaded drawable resource #0x108012a (res/drawable-xhdpi/btn_default_small_normal.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080129 (res/drawable-xhdpi/btn_default_selected.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080128 (res/drawable-xhdpi/btn_default_pressed_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080127 (res/drawable-xhdpi/btn_default_pressed_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080125 (res/drawable-xhdpi/btn_default_pressed.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080124 (res/drawable-xhdpi/btn_default_normal_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080123 (res/drawable-xhdpi/btn_default_normal_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080121 (res/drawable-xhdpi/btn_default_normal_disable_focused.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080120 (res/drawable-xhdpi/btn_default_normal_disable.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108011f (res/drawable-xhdpi/btn_default_normal.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108011c (res/drawable-xhdpi/btn_default_focused_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108011b (res/drawable-xhdpi/btn_default_focused_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080119 (res/drawable-xhdpi/btn_default_disabled_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080118 (res/drawable-xhdpi/btn_default_disabled_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080116 (res/drawable-xhdpi/btn_default_disabled_focused_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080115 (res/drawable-xhdpi/btn_default_disabled_focused_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108011d (res/drawable/btn_default_holo_dark.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108011e (res/drawable/btn_default_holo_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080004 (res/drawable/btn_default.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080005 (res/drawable/btn_default_small.xml) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 39K, 10% free 2551K/2819K, paused 2ms+2ms
+W/Zygote  (  141): Preloaded drawable resource #0x1080135 (res/drawable-xhdpi/btn_dropdown_disabled.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080136 (res/drawable-xhdpi/btn_dropdown_disabled_focused.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080137 (res/drawable-xhdpi/btn_dropdown_normal.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080138 (res/drawable-xhdpi/btn_dropdown_pressed.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080139 (res/drawable-xhdpi/btn_dropdown_selected.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801c9 (res/drawable-xhdpi/btn_star_label_background.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108000b (res/drawable-xhdpi/btn_star_big_off.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108000c (res/drawable-xhdpi/btn_star_big_on.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801c3 (res/drawable-xhdpi/btn_star_big_on_disable.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801bf (res/drawable-xhdpi/btn_star_big_off_disable.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801c5 (res/drawable-xhdpi/btn_star_big_on_pressed.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801c1 (res/drawable-xhdpi/btn_star_big_off_pressed.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801c6 (res/drawable-xhdpi/btn_star_big_on_selected.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801c2 (res/drawable-xhdpi/btn_star_big_off_selected.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801c4 (res/drawable-xhdpi/btn_star_big_on_disable_focused.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801c0 (res/drawable-xhdpi/btn_star_big_off_disable_focused.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801d1 (res/drawable-xhdpi/btn_star_off_normal_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801db (res/drawable-xhdpi/btn_star_on_normal_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801d7 (res/drawable-xhdpi/btn_star_on_disabled_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801cd (res/drawable-xhdpi/btn_star_off_disabled_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801dd (res/drawable-xhdpi/btn_star_on_pressed_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801d3 (res/drawable-xhdpi/btn_star_off_pressed_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801d9 (res/drawable-xhdpi/btn_star_on_focused_holo_light.png) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 42K, 9% free 2566K/2819K, paused 1ms+1ms
+W/Zygote  (  141): Preloaded drawable resource #0x10801cf (res/drawable-xhdpi/btn_star_off_focused_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801d5 (res/drawable-xhdpi/btn_star_on_disabled_focused_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801cb (res/drawable-xhdpi/btn_star_off_disabled_focused_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801c8 (res/drawable/btn_star_holo_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801d0 (res/drawable-xhdpi/btn_star_off_normal_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801da (res/drawable-xhdpi/btn_star_on_normal_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801d6 (res/drawable-xhdpi/btn_star_on_disabled_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801cc (res/drawable-xhdpi/btn_star_off_disabled_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801dc (res/drawable-xhdpi/btn_star_on_pressed_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801d2 (res/drawable-xhdpi/btn_star_off_pressed_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801d8 (res/drawable-xhdpi/btn_star_on_focused_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801ce (res/drawable-xhdpi/btn_star_off_focused_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801d4 (res/drawable-xhdpi/btn_star_on_disabled_focused_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801ca (res/drawable-xhdpi/btn_star_off_disabled_focused_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801c7 (res/drawable/btn_star_holo_dark.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108000a (res/drawable/btn_star.xml) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 42K, 9% free 2587K/2819K, paused 1ms+3ms
+W/Zygote  (  141): Preloaded drawable resource #0x10801f7 (res/drawable-xhdpi/btn_toggle_on_pressed_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801f6 (res/drawable-xhdpi/btn_toggle_on_pressed_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801f5 (res/drawable-xhdpi/btn_toggle_on_normal_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801f4 (res/drawable-xhdpi/btn_toggle_on_normal_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801f3 (res/drawable-xhdpi/btn_toggle_on_focused_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801f2 (res/drawable-xhdpi/btn_toggle_on_focused_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801f1 (res/drawable-xhdpi/btn_toggle_on_disabled_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801f0 (res/drawable-xhdpi/btn_toggle_on_disabled_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801ef (res/drawable-xhdpi/btn_toggle_on_disabled_focused_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801ee (res/drawable-xhdpi/btn_toggle_on_disabled_focused_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801ed (res/drawable-xhdpi/btn_toggle_on.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801ec (res/drawable-xhdpi/btn_toggle_off_pressed_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801eb (res/drawable-xhdpi/btn_toggle_off_pressed_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801ea (res/drawable-xhdpi/btn_toggle_off_normal_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801e9 (res/drawable-xhdpi/btn_toggle_off_normal_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801e8 (res/drawable-xhdpi/btn_toggle_off_focused_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801e7 (res/drawable-xhdpi/btn_toggle_off_focused_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801e6 (res/drawable-xhdpi/btn_toggle_off_disabled_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801e5 (res/drawable-xhdpi/btn_toggle_off_disabled_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801e4 (res/drawable-xhdpi/btn_toggle_off_disabled_focused_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801e3 (res/drawable-xhdpi/btn_toggle_off_disabled_focused_holo_dark.9.png) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 39K, 8% free 2602K/2819K, paused 2ms+1ms
+W/Zygote  (  141): Preloaded drawable resource #0x10801e2 (res/drawable-xhdpi/btn_toggle_off.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801e1 (res/drawable/btn_toggle_holo_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801e0 (res/drawable/btn_toggle_holo_dark.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801de (res/drawable/btn_toggle.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10801df (res/drawable/btn_toggle_bg.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080006 (res/drawable/btn_dropdown.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080006 (res/drawable/btn_dropdown.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080013 (res/drawable-xhdpi/divider_horizontal_textfield.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108022f (res/drawable-xhdpi/divider_horizontal_dark_opaque.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080014 (res/drawable-xhdpi/divider_horizontal_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108022e (res/drawable-xhdpi/divider_horizontal_bright_opaque.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080012 (res/drawable-xhdpi/divider_horizontal_bright.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080235 (res/drawable-xhdpi/divider_vertical_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080253 (res/drawable/edit_text_holo_light.xml) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 43K, 7% free 2630K/2819K, paused 2ms+1ms
+W/Zygote  (  141): Preloaded drawable resource #0x1080252 (res/drawable/edit_text_holo_dark.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080016 (res/drawable/edit_text.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080591 (res/drawable-xhdpi/text_cursor_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080595 (res/drawable-xhdpi/text_select_handle_left.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080597 (res/drawable-xhdpi/text_select_handle_right.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080592 (res/drawable-xhdpi/text_edit_paste_window.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080268 (res/drawable-xhdpi/expander_close_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080269 (res/drawable-xhdpi/expander_close_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108026d (res/drawable-xhdpi/expander_ic_maximized.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108026e (res/drawable-xhdpi/expander_ic_minimized.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108026a (res/drawable/expander_group.xml) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 36K, 7% free 2650K/2819K, paused 2ms+2ms
+W/Zygote  (  141): Preloaded drawable resource #0x108026b (res/drawable/expander_group_holo_dark.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108026c (res/drawable/expander_group_holo_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080062 (res/drawable/list_selector_background.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803bf (res/drawable/list_selector_background_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803c0 (res/drawable-xhdpi/list_selector_background_longpress.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803c1 (res/drawable-xhdpi/list_selector_background_longpress_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803c2 (res/drawable-xhdpi/list_selector_background_pressed.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803c3 (res/drawable-xhdpi/list_selector_background_pressed_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803c4 (res/drawable-xhdpi/list_selector_background_selected.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803ce (res/drawable/list_selector_holo_dark.xml) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 34K, 6% free 2675K/2819K, paused 2ms+3ms
+W/Zygote  (  141): Preloaded drawable resource #0x10803cf (res/drawable/list_selector_holo_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803ae (res/drawable-xhdpi/list_section_divider_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803ad (res/drawable-xhdpi/list_section_divider_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803dc (res/drawable-xhdpi/menu_background.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803dd (res/drawable-xhdpi/menu_background_fill_parent_width.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803e0 (res/drawable-xhdpi/menu_hardkey_panel_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803e1 (res/drawable-xhdpi/menu_hardkey_panel_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803e4 (res/drawable-xhdpi/menu_submenu_background.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803e2 (res/drawable/menu_selector.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803df (res/drawable-xhdpi/menu_dropdown_panel_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803de (res/drawable-xhdpi/menu_dropdown_panel_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080424 (res/drawable-xhdpi/overscroll_edge.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080425 (res/drawable-xhdpi/overscroll_glow.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080426 (res/drawable-xhdpi/panel_background.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080439 (res/drawable-xhdpi/popup_bottom_bright.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108043a (res/drawable-xhdpi/popup_bottom_dark.9.png) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 42K, 5% free 2691K/2819K, paused 1ms+1ms
+W/Zygote  (  141): Preloaded drawable resource #0x108043b (res/drawable-xhdpi/popup_bottom_medium.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108043c (res/drawable-xhdpi/popup_center_bright.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108043d (res/drawable-xhdpi/popup_center_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108043e (res/drawable-xhdpi/popup_center_medium.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108043f (res/drawable-xhdpi/popup_full_bright.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080440 (res/drawable-xhdpi/popup_full_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080447 (res/drawable-xhdpi/popup_top_bright.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080448 (res/drawable-xhdpi/popup_top_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080443 (res/drawable-xhdpi/popup_inline_error_above_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080444 (res/drawable-xhdpi/popup_inline_error_above_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080445 (res/drawable-xhdpi/popup_inline_error_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080446 (res/drawable-xhdpi/popup_inline_error_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108044a (res/drawable-xhdpi/progress_bg_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108044b (res/drawable-xhdpi/progress_bg_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108044c (res/drawable/progress_horizontal_holo_dark.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108044d (res/drawable/progress_horizontal_holo_light.xml) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 38K, 4% free 2713K/2819K, paused 1ms+2ms
+W/Zygote  (  141): Preloaded drawable resource #0x108006d (res/drawable/progress_indeterminate_horizontal.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108044e (res/drawable/progress_indeterminate_horizontal_holo.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108044f (res/drawable/progress_large.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080450 (res/drawable/progress_large_holo.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080451 (res/drawable/progress_large_white.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080452 (res/drawable/progress_medium.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080453 (res/drawable/progress_medium_holo.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080454 (res/drawable/progress_medium_white.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080455 (res/drawable-xhdpi/progress_primary_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080456 (res/drawable-xhdpi/progress_primary_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080457 (res/drawable-xhdpi/progress_secondary_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080458 (res/drawable-xhdpi/progress_secondary_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080459 (res/drawable/progress_small.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108045a (res/drawable/progress_small_holo.xml) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 38K, 4% free 2733K/2819K, paused 2ms+1ms
+W/Zygote  (  141): Preloaded drawable resource #0x108045b (res/drawable/progress_small_titlebar.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108045c (res/drawable/progress_small_white.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804b1 (res/drawable/scrubber_progress_horizontal_holo_dark.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804b2 (res/drawable/scrubber_progress_horizontal_holo_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804a7 (res/drawable-xhdpi/scrollbar_handle_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804a8 (res/drawable-xhdpi/scrollbar_handle_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804a9 (res/drawable-xhdpi/scrollbar_handle_horizontal.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804aa (res/drawable-xhdpi/scrollbar_handle_vertical.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804d5 (res/drawable/spinner_background_holo_dark.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804d6 (res/drawable/spinner_background_holo_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804cb (res/drawable-xhdpi/spinner_ab_default_holo_dark.9.png) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 38K, 3% free 2752K/2819K, paused 2ms+1ms
+W/Zygote  (  141): Preloaded drawable resource #0x10804cc (res/drawable-xhdpi/spinner_ab_default_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804cd (res/drawable-xhdpi/spinner_ab_disabled_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804ce (res/drawable-xhdpi/spinner_ab_disabled_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804cf (res/drawable-xhdpi/spinner_ab_focused_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804d0 (res/drawable-xhdpi/spinner_ab_focused_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804d3 (res/drawable-xhdpi/spinner_ab_pressed_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804d4 (res/drawable-xhdpi/spinner_ab_pressed_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804d1 (res/drawable/spinner_ab_holo_dark.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804d2 (res/drawable/spinner_ab_holo_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804db (res/drawable-xhdpi/spinner_default_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804dc (res/drawable-xhdpi/spinner_default_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804dd (res/drawable-xhdpi/spinner_disabled_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804de (res/drawable-xhdpi/spinner_disabled_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080071 (res/drawable/spinner_dropdown_background.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804df (res/drawable-xhdpi/spinner_dropdown_background_down.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804e0 (res/drawable-xhdpi/spinner_dropdown_background_up.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804e1 (res/drawable-xhdpi/spinner_focused_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804e2 (res/drawable-xhdpi/spinner_focused_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804e5 (res/drawable-xhdpi/spinner_pressed_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10804e6 (res/drawable-xhdpi/spinner_pressed_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080208 (res/drawable-xhdpi/cab_background_bottom_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108020b (res/drawable-xhdpi/cab_background_top_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080209 (res/drawable-xhdpi/cab_background_bottom_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10802aa (res/drawable-xhdpi/ic_cab_done_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108020a (res/drawable-xhdpi/cab_background_top_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10802ab (res/drawable-xhdpi/ic_cab_done_holo_light.png) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 45K, 5% free 2762K/2883K, paused 1ms+2ms
+W/Zygote  (  141): Preloaded drawable resource #0x10800d0 (res/drawable-xhdpi/btn_cab_done_default_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800d3 (res/drawable-xhdpi/btn_cab_done_focused_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800d1 (res/drawable-xhdpi/btn_cab_done_default_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800d6 (res/drawable-xhdpi/btn_cab_done_pressed_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800d2 (res/drawable-xhdpi/btn_cab_done_focused_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800d7 (res/drawable-xhdpi/btn_cab_done_pressed_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800d5 (res/drawable/btn_cab_done_holo_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800d4 (res/drawable/btn_cab_done_holo_dark.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080038 (res/drawable-xhdpi/ic_menu_close_clear_cancel.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080313 (res/drawable-xhdpi/ic_menu_copy_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080314 (res/drawable-xhdpi/ic_menu_copy_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080316 (res/drawable-xhdpi/ic_menu_cut_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080317 (res/drawable-xhdpi/ic_menu_cut_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080045 (res/drawable-xhdpi/ic_menu_more.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080328 (res/drawable/ic_menu_moreoverflow_holo_dark.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080329 (res/drawable/ic_menu_moreoverflow_holo_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108032e (res/drawable-xhdpi/ic_menu_paste_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108032f (res/drawable-xhdpi/ic_menu_paste_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080335 (res/drawable-xhdpi/ic_menu_selectall_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080334 (res/drawable-xhdpi/ic_menu_selectall_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10802ad (res/drawable/ic_clear.xml) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 40K, 4% free 2781K/2883K, paused 3ms+2ms
+W/Zygote  (  141): Preloaded drawable resource #0x10802ae (res/drawable-xhdpi/ic_clear_disabled.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10802b0 (res/drawable-xhdpi/ic_clear_normal.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080343 (res/drawable-xhdpi/ic_search.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10802c3 (res/drawable-xhdpi/ic_go.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108034b (res/drawable-xhdpi/ic_voice_search.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108021c (res/drawable-xhdpi/dialog_bottom_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108021d (res/drawable-xhdpi/dialog_bottom_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080221 (res/drawable-xhdpi/dialog_full_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080222 (res/drawable-xhdpi/dialog_full_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108022a (res/drawable-xhdpi/dialog_middle_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108022b (res/drawable-xhdpi/dialog_middle_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108022c (res/drawable-xhdpi/dialog_top_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108022d (res/drawable-xhdpi/dialog_top_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080027 (res/drawable-xhdpi/ic_dialog_alert.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10802b9 (res/drawable-xhdpi/ic_dialog_alert_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10802ba (res/drawable-xhdpi/ic_dialog_alert_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803a3 (res/drawable-xhdpi/list_divider_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803a4 (res/drawable-xhdpi/list_divider_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10803a4 (res/drawable-xhdpi/list_divider_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10802db (res/drawable-xhdpi/ic_lockscreen_chevron_left.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10802dc (res/drawable-xhdpi/ic_lockscreen_chevron_right.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800bd (res/drawable-xhdpi/ab_transparent_dark_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800bb (res/drawable-xhdpi/ab_stacked_transparent_dark_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800a1 (res/drawable-xhdpi/ab_bottom_transparent_dark_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800b5 (res/drawable-xhdpi/ab_solid_dark_holo.9.png) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 43K, 4% free 2795K/2883K, paused 2ms+1ms
+W/Zygote  (  141): Preloaded drawable resource #0x10800b8 (res/drawable-xhdpi/ab_stacked_solid_dark_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108009e (res/drawable-xhdpi/ab_bottom_solid_dark_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800be (res/drawable-xhdpi/ab_transparent_light_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800bc (res/drawable-xhdpi/ab_stacked_transparent_light_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800a2 (res/drawable-xhdpi/ab_bottom_transparent_light_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800b6 (res/drawable-xhdpi/ab_solid_light_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800ba (res/drawable-xhdpi/ab_stacked_solid_light_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800a0 (res/drawable-xhdpi/ab_bottom_solid_light_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10800b7 (res/drawable-xhdpi/ab_solid_shadow_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080362 (res/drawable/item_background_holo_dark.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080363 (res/drawable/item_background_holo_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108028e (res/drawable-xhdpi/ic_ab_back_holo_dark.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108028f (res/drawable-xhdpi/ic_ab_back_holo_light.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080276 (res/drawable/fastscroll_thumb_holo.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080277 (res/drawable-xhdpi/fastscroll_thumb_pressed_holo.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080275 (res/drawable-xhdpi/fastscroll_thumb_default_holo.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108027a (res/drawable/fastscroll_track_holo_dark.xml) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 38K, 3% free 2813K/2883K, paused 2ms+1ms
+W/Zygote  (  141): Preloaded drawable resource #0x108027c (res/drawable-xhdpi/fastscroll_track_pressed_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080278 (res/drawable-xhdpi/fastscroll_track_default_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080271 (res/drawable-xhdpi/fastscroll_label_left_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080273 (res/drawable-xhdpi/fastscroll_label_right_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108027b (res/drawable/fastscroll_track_holo_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108027d (res/drawable-xhdpi/fastscroll_track_pressed_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080279 (res/drawable-xhdpi/fastscroll_track_default_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080272 (res/drawable-xhdpi/fastscroll_label_left_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080274 (res/drawable-xhdpi/fastscroll_label_right_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080256 (res/drawable-xhdpi/editbox_dropdown_background_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10805c6 (res/drawable/textfield_searchview_holo_dark.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10805c8 (res/drawable/textfield_searchview_right_holo_dark.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10805c7 (res/drawable/textfield_searchview_holo_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10805c9 (res/drawable/textfield_searchview_right_holo_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10805c4 (res/drawable-xhdpi/textfield_search_selected_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10805b8 (res/drawable-xhdpi/textfield_search_default_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10805c1 (res/drawable-xhdpi/textfield_search_right_selected_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10805bf (res/drawable-xhdpi/textfield_search_right_default_holo_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10805c5 (res/drawable-xhdpi/textfield_search_selected_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10805b9 (res/drawable-xhdpi/textfield_search_default_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10805c2 (res/drawable-xhdpi/textfield_search_right_selected_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x10805c0 (res/drawable-xhdpi/textfield_search_right_default_holo_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108057c (res/drawable/tab_indicator_holo.xml) that varies with configuration!!
+D/dalvikvm(  141): GC_EXPLICIT freed 45K, 4% free 2835K/2947K, paused 1ms+1ms
+W/Zygote  (  141): Preloaded drawable resource #0x108058d (res/drawable-xhdpi/tab_unselected_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080588 (res/drawable-xhdpi/tab_selected_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108058c (res/drawable-xhdpi/tab_unselected_focused_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080587 (res/drawable-xhdpi/tab_selected_focused_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x108058e (res/drawable-xhdpi/tab_unselected_pressed_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080589 (res/drawable-xhdpi/tab_selected_pressed_holo.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080470 (res/drawable/quickcontact_badge_overlay_dark.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080474 (res/drawable-xhdpi/quickcontact_badge_overlay_normal_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080476 (res/drawable-xhdpi/quickcontact_badge_overlay_pressed_dark.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080473 (res/drawable/quickcontact_badge_overlay_light.xml) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080475 (res/drawable-xhdpi/quickcontact_badge_overlay_normal_light.9.png) that varies with configuration!!
+W/Zygote  (  141): Preloaded drawable resource #0x1080477 (res/drawable-xhdpi/quickcontact_badge_overlay_pressed_light.9.png) that varies with configuration!!
+I/Zygote  (  141): ...preloaded 379 resources in 984ms.
+I/Zygote  (  141): ...preloaded 31 resources in 8ms.
+D/dalvikvm(  141): GC_EXPLICIT freed 44K, 4% free 2845K/2947K, paused 1ms+2ms
+D/dalvikvm(  141): GC_EXPLICIT freed 10K, 4% free 2834K/2947K, paused 1ms+2ms
+D/dalvikvm(  141): GC_EXPLICIT freed <1K, 4% free 2834K/2947K, paused 1ms+2ms
+I/dalvikvm(  141): System server process 278 has been created
+I/Zygote  (  141): Accepting command socket connections
+E/BatteryService(  278): wirelessOnlinePath not found
+I/sysproc (  278): Entered system_init()
+I/sysproc (  278): ServiceManager: 0x495370
+D/SensorService(  278): nuSensorService starting...
+V/Sensors (  278): int open_sensors(const hw_module_t*, const char*, hw_device_t**)
+D/Sensors (  278): Opening sensors...
+D/Sensors (  278): Panasonic Gyro eanble, buf  (112)
+D/Sensors (  278): Panasonic open_sensors
+D/Sensors (  278): init_nusensors
+D/Sensors (  278): sensors_pana_poll_context_t::sensors_pana_poll_context_t 
+D/Sensors (  278): Creating Proximity Sensor...
+I/NvAudioALSA(  143): setParameters() checkPathoff
+D/Sensors (  278): AkmSensor::AkmSensor(), htc
+D/Sensors (  278): akm:Read ECS_IOCTL_APP_GET_AFLAG flags 1379657756 
+D/Sensors (  278): akm: Read ECS_IOCTL_APP_GET_MVFLAG flags 1379657756 
+D/Sensors (  278): akm:Read ECS_IOCTL_APP_GET_MFLAG flags 1379657756 
+D/Sensors (  278): Read Control from akm-Sensor EWHAL_IOCTL_GET_CONTROL is error at AkmSensor , control = 0
+D/Sensors (  278): sensors_pana_poll_context_t::sensors_pana_poll_context_t => new GyroSensor() 
+D/mcp_hal_socket(  152): [HGPS] clientSocket_ThreadFunc ++ tid=14849400
+D/mcp_hal_socket(  152): [HGPS] before 1st recv tid=14849400
+D/mcp_hal_socket(  152): [HGPS] before 2nd recv tid=14849400
+D/mcp_hal_socket(  152): [HGPS] before 1st recv tid=14849400
+D/gpsc_msg(  152): gpsc_app_gps_wakeup_from_cmdhandler: Receiver is not OFF, ignore wakeup request
+D/gpsc_msg(  152):  HW and SW Version request in state = 0
+D/mcp_hal_socket(  152): [HGPS] before 1st recv tid=14849400
+D/mcp_hal_socket(  152): [HGPS] before 2nd recv tid=14849400
+D/AK8975  (  149): Compass Start
+D/gpsc_msg(  152): gpsc_register_for_assistance
+D/gpsc_msg(  152): gpsc_register_for_assistance: GPS Time: Cnt:1, TaskID:9, Q-ID:0
+D/mcp_hal_socket(  152): [HGPS] before 1st recv tid=14849400
+D/AK8975  (  149): Compass CLOSE 
+D/Sensors (  278): GyroSensor::GyroSensor()
+D/Sensors (  278): GyroSensor mEnabled 0
+D/Sensors (  278): sensors_pana_poll_context_t::sensors_pana_poll_context_t => leave 
+D/Sensors (  278): Panasonic Gyro eanble, buf  (112)
+D/Sensors (  278): sensors_pana_poll_context_t::activate_pana 
+D/Sensors (  278): AkmSensor::enable htc, handle :0
+D/Sensors (  278): Enable akm: en = 0, mEnabled 0
+D/Sensors (  278): Enable akm: newState = 0, (uint32_t(newState)<<what) 0, (mEnabled & (1<<what)0
+D/Sensors (  278): sensors_pana_poll_context_t::activate_pana 
+D/Sensors (  278): AkmSensor::enable htc, handle :1
+D/Sensors (  278): Enable akm: en = 0, mEnabled 0
+D/Sensors (  278): Enable akm: newState = 0, (uint32_t(newState)<<what) 0, (mEnabled & (1<<what)0
+D/Sensors (  278): sensors_pana_poll_context_t::activate_pana 
+D/Sensors (  278): AkmSensor::enable htc, handle :2
+D/Sensors (  278): Enable akm: en = 0, mEnabled 0
+D/Sensors (  278): Enable akm: newState = 0, (uint32_t(newState)<<what) 0, (mEnabled & (1<<what)0
+D/Sensors (  278): sensors_pana_poll_context_t::activate_pana 
+D/Sensors (  278): GyroSensor::enable :handle 0x6, mEnabled = 0
+D/Sensors (  278): GyroSensor::enable :what 0x6
+D/Sensors (  278): sensors_pana_poll_context_t::activate_pana 
+D/Sensors (  278): AkmSensor::enable htc, handle :3
+D/Sensors (  278): AkmSensor::enable htc, ID_ROTATION_VECTOR :3
+D/Sensors (  278): Enable akm: en = 0, mEnabled 0
+D/Sensors (  278): Enable akm: newState = 0, (uint32_t(newState)<<what) 0, (mEnabled & (1<<what)0
+D/Sensors (  278): sensors_pana_poll_context_t::activate_pana 
+D/Sensors (  278): AkmSensor::enable htc, handle :4
+D/Sensors (  278): Enable akm: en = 0, mEnabled 0
+D/Sensors (  278): Enable akm: newState = 0, (uint32_t(newState)<<what) 0, (mEnabled & (1<<what)0
+D/Sensors (  278): sensors_pana_poll_context_t::activate_pana 
+D/Sensors (  278): AkmSensor::enable htc, handle :5
+D/Sensors (  278): Enable akm: en = 0, mEnabled 0
+D/Sensors (  278): Enable akm: newState = 0, (uint32_t(newState)<<what) 0, (mEnabled & (1<<what)0
+D/Sensors (  278): sensors_pana_poll_context_t::activate_pana 
+D/Sensors (  278): sensors_pana_poll_context_t::activate_pana 
+D/Sensors (  278): Panasonic Gyro eanble, buf  (112)
+I/SensorService(  278): Panasonic 3-axis Acceleration sensor
+I/SensorService(  278): Panasonic 3-axis Magnetic Field sensor
+I/SensorService(  278): Panasonic Orientation sensor
+I/SensorService(  278): Panasonic Gyroscope sensor
+I/SensorService(  278): Panasonic Rotation Vector
+I/SensorService(  278): Panasonic Linear Acceleration
+I/SensorService(  278): Panasonic Gravity
+I/SensorService(  278): CM3602 Proximity sensor
+I/SensorService(  278): CM3602 Light sensor
+D/Sensors (  278): Panasonic Gyro eanble, buf  (112)
+D/SensorService(  278): nuSensorService thread starting...
+I/sysproc (  278): System server: starting Android runtime.
+I/sysproc (  278): System server: starting Android services.
+I/sysproc (  278): System server: entering thread pool.
+I/SystemServer(  278): Entered the Android system server!
+I/SystemServer(  278): Entropy Service
+W/EntropyService(  278): unable to load initial entropy (first boot?)
+W/EntropyService(  278): java.io.FileNotFoundException: /data/system/entropy.dat: open failed: ENOENT (No such file or directory)
+W/EntropyService(  278): 	at libcore.io.IoBridge.open(IoBridge.java:406)
+W/EntropyService(  278): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+W/EntropyService(  278): 	at java.io.FileInputStream.<init>(FileInputStream.java:105)
+W/EntropyService(  278): 	at com.android.server.RandomBlock.fromFile(RandomBlock.java:45)
+W/EntropyService(  278): 	at com.android.server.EntropyService.loadInitialEntropy(EntropyService.java:99)
+W/EntropyService(  278): 	at com.android.server.EntropyService.<init>(EntropyService.java:86)
+W/EntropyService(  278): 	at com.android.server.EntropyService.<init>(EntropyService.java:76)
+W/EntropyService(  278): 	at com.android.server.ServerThread.run(SystemServer.java:171)
+W/EntropyService(  278): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/EntropyService(  278): 	at libcore.io.Posix.open(Native Method)
+W/EntropyService(  278): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/EntropyService(  278): 	at libcore.io.IoBridge.open(IoBridge.java:390)
+W/EntropyService(  278): 	... 7 more
+I/SystemServer(  278): Power Manager
+I/SystemServer(  278): DeviceManager3LM
+I/SystemServer(  278): Activity Manager
+I/ActivityManager(  278): Memory class: 64
+D/HtcDeviceInfoManager(  278): Factory create HtcCommonInfoScheduler
+I/SystemServer(  278): Telephony Registry
+I/SystemServer(  278): Package Manager
+I/PackageManager(  278): No settings file; creating initial state
+I/installd(  145): new connection
+I/Installer(  278): connecting...
+D/dalvikvm(  302): DexOpt: load 3ms, verify+opt 5ms
+D/dalvikvm(  303): DexOpt: load 3ms, verify+opt 11ms
+D/dalvikvm(  304): DexOpt: load 2ms, verify+opt 2ms
+D/dalvikvm(  305): DexOpt: load 12ms, verify+opt 37ms
+D/dalvikvm(  306): DexOpt: load 2ms, verify+opt 0ms
+D/dalvikvm(  307): DexOpt: load 15ms, verify+opt 15ms
+D/dalvikvm(  308): DexOpt: load 2ms, verify+opt 2ms
+D/dalvikvm(  309): DexOpt: load 5ms, verify+opt 37ms
+D/dalvikvm(  310): DexOpt: 'Landroid/net/BaiduConnectivityManager;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Landroid/telephony/BaiduIccPhonebookManager$PhoneBookFeatures;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Landroid/telephony/BaiduIccPhonebookManager;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Landroid/telephony/BaiduSmsManager;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Landroid/telephony/BaiduSubManager;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Landroid/telephony/BaiduTelephonyExtend;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Landroid/telephony/BaiduTelephonyManager;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Landroid/telephony/BaiduTelephonyUtils$DSDSBaseColumns;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Landroid/telephony/BaiduTelephonyUtils$CallLog;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Landroid/telephony/BaiduTelephonyUtils$Contacts;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Landroid/telephony/BaiduTelephonyUtils$Mms;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Landroid/telephony/BaiduTelephonyUtils$PendingMessages;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Landroid/telephony/BaiduTelephonyUtils$SIMInfo$ErrorCode;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Landroid/telephony/BaiduTelephonyUtils$SIMInfo;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Landroid/telephony/BaiduTelephonyUtils$SimInfo;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Landroid/telephony/BaiduTelephonyUtils$Sms;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Landroid/telephony/BaiduTelephonyUtils;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/baidu/android/vad/JNI;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/baidu/customization/Constants;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/baidu/customization/DBOverlayHelper;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/baidu/customization/DatabaseTable;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/baidu/customization/ExternalOverlayHelper;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/baidu/customization/Logger;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/baidu/customization/PreferenceOverlayHelper;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/baidu/customization/XmlOverlay$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/baidu/customization/XmlOverlay;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/baidu/featureswitch/FeatureSwitch;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/baidu/voiceprint/SpeakerRec;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/baidu/voiceprint/VoiceprintHandler$StateListener;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/baidu/voiceprint/VoiceprintHandler$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/baidu/voiceprint/VoiceprintHandler$RecordingTask;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/baidu/voiceprint/VoiceprintHandler;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/R$anim;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/R$array;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/R$attr;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/R$color;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/R$dimen;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/R$drawable;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/R$id;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/R$layout;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/R$string;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/R$style;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/R$styleable;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/R;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/app/AlertController$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/app/AlertController$AlertParams$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/app/AlertController$AlertParams$2;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/app/AlertController$AlertParams$3;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/app/AlertController$AlertParams$4;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/app/AlertController$AlertParams;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/app/AlertController$ButtonHandler;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/app/AlertController$RecycleListView;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/app/AlertController;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/app/RingtonePickerCustomActivity$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/app/RingtonePickerCustomActivity$2;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/app/RingtonePickerCustomActivity;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/app/RingtonePickerSystemActivity$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/app/RingtonePickerSystemActivity$2;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/app/RingtonePickerSystemActivity$3;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/app/RingtonePickerSystemActivity;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/media/AudioFadeController$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/media/AudioFadeController$OnFadeCompleteListener;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/media/AudioFadeController;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/LockScreenVoicePrintCallback;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/LockScreenVoicePrintInterface;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView$2;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView$3;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView$4;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView$5;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView$6;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView$VoiceState;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView$Exiting;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView$Recognizing;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView$RecognizingError;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView$RecognizingSuccess;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView$RecorderListener;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView$Recording;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView$Start;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView$Tone;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView$VoiceHandler;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lcom/yi/internal/widget/VoiceprintUnlockView;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/R$anim;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/R$array;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/R$attr;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/R$color;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/R$dimen;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/R$drawable;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/R$id;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/R$layout;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/R$string;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/R$style;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/R$styleable;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/R;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/app/BaiduAppTitle$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/app/BaiduAppTitle$2;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/app/BaiduAppTitle$OnLeftClickedListener;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/app/BaiduAppTitle$OnRightClickedListener;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/app/BaiduAppTitle$OnYiLeftClickedListener;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/app/BaiduAppTitle$OnYiRightClickedListener;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/app/BaiduAppTitle;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/AbstractPayServer$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/IPayServer;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/IPayServer$Stub;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/AbstractPayServer$Server;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/AbstractPayServer;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/AbstractTradeServer$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/ITradeServer;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/ITradeServer$Stub;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/AbstractTradeServer$Server;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/AbstractTradeServer;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/FakePayServer;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/FakeTradeServer;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/IPayServer$Stub$Proxy;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/ITradeServer$Stub$Proxy;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/NewTrade$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/NewTrade;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/NewTradeInfo$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/NewTradeInfo;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/NewTradeResult$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/NewTradeResult;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/PayInfo$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/PayInfo;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/PayManager$InitializerServiceConnection;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/PayManager;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/PayResult$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/PayResult;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/Trade$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/Trade;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/TradeInfo;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/TradeServerCache$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/TradeServerCache$MySerializer;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/TradeServerCache;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/TradeServerType$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/baidupay/TradeServerType;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/phone/IPhoneUtil;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/phone/DefaultPhoneUtil;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/phone/IPhoneUtil$Creator;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/phone/MTKPhoneUtil;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/phone/MTKTCLPhoneUtil;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/phone/MTKZXPhoneUtil;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/phone/QualcommPhoneUtil;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/phone/QualcommZXPhoneUtil;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/preference/PreferenceGroupActivity;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/preference/SwitcherPreference$SavedState$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/preference/SwitcherPreference$SavedState;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/preference/SwitcherPreference;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/ubc/IUBCService;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/ubc/IUBCService$Stub$Proxy;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/ubc/IUBCService$Stub;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/ubc/MetricBuilder;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/ubc/UBCConfiguration$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/ubc/UBCConfiguration;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/ubc/UBCConstData$ActionName;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/ubc/UBCConstData$ConfigCommand;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/ubc/UBCConstData$EventType;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/ubc/UBCConstData$ExtraName;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/ubc/UBCConstData;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/ubc/UBCServiceManager;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/util/DeviceManager;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/util/FeatureConfig;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/util/IntentExtension;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/util/LunarCalendarTranslator$OutOfLunarRangeException;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/util/LunarCalendarTranslator;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/util/MyLogger;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/util/PackageManagerUtil;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/util/PushHelper;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/util/Telephony;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/util/ViewHelper;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/util/YiSettings$System;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/util/YiSettings;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/util/YiSimpleDateFormat;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/view/animation/Rotate3dAnimation;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/BaiduEditText$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/BaiduEditText;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/ButtonGroup$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/ButtonGroup$2;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/ButtonGroup$LayoutParams;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/ButtonGroup$OnButtonCheckedListener;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/ButtonGroup;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/CheckableItemLayout;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/ImageViewInListItem;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/SearchEditText;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/Switcher$OnSwitcherChangeListener;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/Switcher;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/TransportControlView$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/TransportControlView$IRemoteControlDisplayWeak;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/TransportControlView$Metadata;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/TransportControlView$SavedState$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/TransportControlView$SavedState;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/TransportControlView;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/TransportWidgetCallback;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/WeightedLinearLayout;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Cubic$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Cubic$2;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Cubic$3;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Cubic;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Linear$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Linear;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Quad$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Quad$2;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Quad$3;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Quad;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Quart$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Quart$2;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Quart$3;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Quart;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Quint$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Quint$2;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Quint$3;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Quint;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Sine$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Sine$2;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Sine$3;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease$Sine;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Ease;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$2;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$3;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$4;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$5;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$6;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$Cell;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$CellKey;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$OnTriggerListener;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/SmartMultiUnlockView;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/SmartTargetDrawable$DrawableWithAlpha;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/SmartTargetDrawable;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Tweener$1;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: 'Lyi/widget/smartmultiwave/Tweener;' has an earlier definition; blocking out
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/net/BaiduConnectivityManager;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/telephony/BaiduIccPhonebookManager$PhoneBookFeatures;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/telephony/BaiduIccPhonebookManager;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/telephony/BaiduSmsManager;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/telephony/BaiduSubManager;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/telephony/BaiduTelephonyExtend;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/telephony/BaiduTelephonyManager;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/telephony/BaiduTelephonyUtils$DSDSBaseColumns;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/telephony/BaiduTelephonyUtils$CallLog;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/telephony/BaiduTelephonyUtils$Contacts;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/telephony/BaiduTelephonyUtils$Mms;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/telephony/BaiduTelephonyUtils$PendingMessages;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/telephony/BaiduTelephonyUtils$SIMInfo$ErrorCode;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/telephony/BaiduTelephonyUtils$SIMInfo;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/telephony/BaiduTelephonyUtils$SimInfo;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/telephony/BaiduTelephonyUtils$Sms;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Landroid/telephony/BaiduTelephonyUtils;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/baidu/android/vad/JNI;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/baidu/customization/Constants;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/baidu/customization/DBOverlayHelper;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/baidu/customization/DatabaseTable;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/baidu/customization/ExternalOverlayHelper;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/baidu/customization/Logger;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/baidu/customization/PreferenceOverlayHelper;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/baidu/customization/XmlOverlay$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/baidu/customization/XmlOverlay;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/baidu/featureswitch/FeatureSwitch;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/baidu/voiceprint/SpeakerRec;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/baidu/voiceprint/VoiceprintHandler$StateListener;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/baidu/voiceprint/VoiceprintHandler$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/baidu/voiceprint/VoiceprintHandler$RecordingTask;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/baidu/voiceprint/VoiceprintHandler;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/R$anim;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/R$array;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/R$attr;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/R$color;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/R$dimen;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/R$drawable;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/R$id;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/R$layout;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/R$string;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/R$style;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/R$styleable;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/R;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/app/AlertController$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/app/AlertController$AlertParams$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/app/AlertController$AlertParams$2;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/app/AlertController$AlertParams$3;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/app/AlertController$AlertParams$4;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/app/AlertController$AlertParams;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/app/AlertController$ButtonHandler;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/app/AlertController$RecycleListView;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/app/AlertController;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/app/RingtonePickerCustomActivity$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/app/RingtonePickerCustomActivity$2;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/app/RingtonePickerCustomActivity;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/app/RingtonePickerSystemActivity$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/app/RingtonePickerSystemActivity$2;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/app/RingtonePickerSystemActivity$3;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/app/RingtonePickerSystemActivity;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/media/AudioFadeController$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/media/AudioFadeController$OnFadeCompleteListener;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/media/AudioFadeController;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/LockScreenVoicePrintCallback;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/LockScreenVoicePrintInterface;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView$2;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView$3;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView$4;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView$5;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView$6;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView$VoiceState;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView$Exiting;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView$Recognizing;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView$RecognizingError;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView$RecognizingSuccess;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView$RecorderListener;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView$Recording;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView$Start;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView$Tone;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView$VoiceHandler;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lcom/yi/internal/widget/VoiceprintUnlockView;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/R$anim;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/R$array;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/R$attr;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/R$color;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/R$dimen;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/R$drawable;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/R$id;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/R$layout;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/R$string;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/R$style;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/R$styleable;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/R;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/app/BaiduAppTitle$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/app/BaiduAppTitle$2;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/app/BaiduAppTitle$OnLeftClickedListener;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/app/BaiduAppTitle$OnRightClickedListener;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/app/BaiduAppTitle$OnYiLeftClickedListener;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/app/BaiduAppTitle$OnYiRightClickedListener;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/app/BaiduAppTitle;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/AbstractPayServer$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/IPayServer;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/IPayServer$Stub;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/AbstractPayServer$Server;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/AbstractPayServer;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/AbstractTradeServer$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/ITradeServer;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/ITradeServer$Stub;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/AbstractTradeServer$Server;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/AbstractTradeServer;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/FakePayServer;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/FakeTradeServer;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/IPayServer$Stub$Proxy;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/ITradeServer$Stub$Proxy;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/NewTrade$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/NewTrade;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/NewTradeInfo$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/NewTradeInfo;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/NewTradeResult$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/NewTradeResult;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/PayInfo$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/PayInfo;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/PayManager$InitializerServiceConnection;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/PayManager;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/PayResult$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/PayResult;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/Trade$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/Trade;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/TradeInfo;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/TradeServerCache$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/TradeServerCache$MySerializer;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/TradeServerCache;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/TradeServerType$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/baidupay/TradeServerType;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/phone/IPhoneUtil;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/phone/DefaultPhoneUtil;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/phone/IPhoneUtil$Creator;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/phone/MTKPhoneUtil;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/phone/MTKTCLPhoneUtil;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/phone/MTKZXPhoneUtil;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/phone/QualcommPhoneUtil;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/phone/QualcommZXPhoneUtil;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/preference/PreferenceGroupActivity;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/preference/SwitcherPreference$SavedState$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/preference/SwitcherPreference$SavedState;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/preference/SwitcherPreference;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/ubc/IUBCService;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/ubc/IUBCService$Stub$Proxy;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/ubc/IUBCService$Stub;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/ubc/MetricBuilder;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/ubc/UBCConfiguration$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/ubc/UBCConfiguration;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/ubc/UBCConstData$ActionName;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/ubc/UBCConstData$ConfigCommand;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/ubc/UBCConstData$EventType;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/ubc/UBCConstData$ExtraName;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/ubc/UBCConstData;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/ubc/UBCServiceManager;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/util/DeviceManager;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/util/FeatureConfig;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/util/IntentExtension;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/util/LunarCalendarTranslator$OutOfLunarRangeException;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/util/LunarCalendarTranslator;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/util/MyLogger;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/util/PackageManagerUtil;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/util/PushHelper;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/util/Telephony;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/util/ViewHelper;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/util/YiSettings$System;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/util/YiSettings;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/util/YiSimpleDateFormat;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/view/animation/Rotate3dAnimation;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/BaiduEditText$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/BaiduEditText;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/ButtonGroup$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/ButtonGroup$2;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/ButtonGroup$LayoutParams;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/ButtonGroup$OnButtonCheckedListener;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/ButtonGroup;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/CheckableItemLayout;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/ImageViewInListItem;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/SearchEditText;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/Switcher$OnSwitcherChangeListener;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/Switcher;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/TransportControlView$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/TransportControlView$IRemoteControlDisplayWeak;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/TransportControlView$Metadata;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/TransportControlView$SavedState$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/TransportControlView$SavedState;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/TransportControlView;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/TransportWidgetCallback;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/WeightedLinearLayout;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Cubic$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Cubic$2;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Cubic$3;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Cubic;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Linear$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Linear;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Quad$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Quad$2;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Quad$3;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Quad;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Quart$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Quart$2;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Quart$3;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Quart;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Quint$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Quint$2;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Quint$3;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Quint;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Sine$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Sine$2;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Sine$3;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease$Sine;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Ease;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$2;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$3;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$4;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$5;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$6;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$Cell;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$CellKey;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/SmartMultiUnlockView$OnTriggerListener;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/SmartMultiUnlockView;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/SmartTargetDrawable$DrawableWithAlpha;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/SmartTargetDrawable;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Tweener$1;': multiple definitions
+D/dalvikvm(  310): DexOpt: not verifying/optimizing 'Lyi/widget/smartmultiwave/Tweener;': multiple definitions
+D/dalvikvm(  310): DexOpt: load 89ms, verify+opt 14ms
+D/dalvikvm(  311): DexOpt: load 8ms, verify+opt 18ms
+D/dalvikvm(  312): DexOpt: load 25ms, verify+opt 35ms
+D/dalvikvm(  313): DexOpt: load 18ms, verify+opt 84ms
+D/dalvikvm(  314): DexOpt: load 3ms, verify+opt 10ms
+D/dalvikvm(  315): DexOpt: load 3ms, verify+opt 1ms
+D/dalvikvm(  316): DexOpt: load 3ms, verify+opt 12ms
+D/dalvikvm(  317): DexOpt: load 2ms, verify+opt 3ms
+D/dalvikvm(  318): DexOpt: load 2ms, verify+opt 2ms
+D/dalvikvm(  319): DexOpt: load 5ms, verify+opt 40ms
+D/dalvikvm(  320): DexOpt: load 5ms, verify+opt 23ms
+D/dalvikvm(  321): DexOpt: load 2ms, verify+opt 2ms
+I/dalvikvm(  278): Zip is good, but no classes.dex inside, and no .odex file in the same directory
+W/PackageManager(  278): Exception reading jar: /system/framework/framework-res-yi.apk
+W/PackageManager(  278): java.io.IOException: /system/framework/framework-res-yi.apk
+W/PackageManager(  278): 	at dalvik.system.DexFile.isDexOptNeeded(Native Method)
+W/PackageManager(  278): 	at com.android.server.pm.PackageManagerService.<init>(PackageManagerService.java:1161)
+W/PackageManager(  278): 	at com.android.server.pm.PackageManagerService.main(PackageManagerService.java:865)
+W/PackageManager(  278): 	at com.android.server.ServerThread.run(SystemServer.java:205)
+D/dalvikvm(  322): DexOpt: load 3ms, verify+opt 2ms
+D/dalvikvm(  323): DexOpt: load 2ms, verify+opt 5ms
+D/dalvikvm(  324): DexOpt: load 7ms, verify+opt 28ms
+D/dalvikvm(  325): DexOpt: load 3ms, verify+opt 9ms
+D/dalvikvm(  326): DexOpt: load 2ms, verify+opt 3ms
+I/PackageManager(  278): /system/framework/com.htc.resources.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 1368K, 31% free 3295K/4771K, paused 1ms+5ms
+D/dalvikvm(  278): GC_FOR_ALLOC freed 622K, 26% free 3904K/5219K, paused 20ms
+D/dalvikvm(  278): GC_FOR_ALLOC freed 776K, 31% free 4055K/5859K, paused 21ms
+D/dalvikvm(  278): GC_CONCURRENT freed 750K, 15% free 5192K/6051K, paused 2ms+2ms
+D/dalvikvm(  278): GC_CONCURRENT freed 788K, 13% free 6306K/7203K, paused 3ms+3ms
+W/PackageManager(  278): Permission com.htc.permission.RECEIVE_SYNC_DM_NOTIFICATION from package com.htc ignored: no group null
+D/PackageManager(  278): sketcher blacklist = 7
+V/PackageManager(  278): There is no coustomized sketcher blacklist
+I/PackageManager(  278): /system/framework/com.htc.videowidget.res.apk changed; collecting certs
+I/PackageManager(  278): /system/framework/framework-htc-res.apk changed; collecting certs
+W/PackageManager(  278): Permission android.permission.WIRELESSDISPLAY from package com.htc.framework ignored: no group null
+W/PackageParser(  278): /system/framework/framework-res-yi.apk (at Binary XML file line #3): <manifest> specifies bad package name "yi": must have at least one '.' separator
+I/PackageManager(  278): /system/framework/framework-res.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 1229K, 17% free 6942K/8291K, paused 1ms+20ms
+D/dalvikvm(  278): GC_FOR_ALLOC freed 3896K, 47% free 4788K/8931K, paused 41ms
+D/dalvikvm(  278): GC_FOR_ALLOC freed 126K, 45% free 4916K/8931K, paused 25ms
+I/dalvikvm-heap(  278): Grow heap (frag case) to 5.403MB for 520516-byte allocation
+D/dalvikvm(  278): GC_FOR_ALLOC freed 254K, 46% free 5171K/9443K, paused 24ms
+I/dalvikvm-heap(  278): Grow heap (frag case) to 6.149MB for 1042868-byte allocation
+D/dalvikvm(  278): GC_FOR_ALLOC freed 508K, 46% free 5681K/10467K, paused 27ms
+I/dalvikvm-heap(  278): Grow heap (frag case) to 6.166MB for 537909-byte allocation
+D/dalvikvm(  278): GC_FOR_ALLOC freed 1019K, 54% free 5187K/11043K, paused 25ms
+D/dalvikvm(  278): GC_FOR_ALLOC freed 498K, 49% free 5698K/11043K, paused 27ms
+I/dalvikvm-heap(  278): Grow heap (frag case) to 6.665MB for 1043392-byte allocation
+D/dalvikvm(  278): GC_FOR_ALLOC freed 527K, 49% free 6190K/12067K, paused 25ms
+D/dalvikvm(  278): GC_FOR_ALLOC freed 1514K, 49% free 6205K/12067K, paused 24ms
+D/dalvikvm(  278): GC_FOR_ALLOC freed 508K, 45% free 6715K/12067K, paused 27ms
+D/dalvikvm(  278): GC_CONCURRENT freed 1303K, 40% free 7255K/12067K, paused 1ms+2ms
+D/dalvikvm(  278): GC_CONCURRENT freed 387K, 28% free 8711K/12067K, paused 1ms+3ms
+D/dalvikvm(  278): GC_CONCURRENT freed 1355K, 24% free 9198K/12067K, paused 3ms+4ms
+D/dalvikvm(  278): GC_CONCURRENT freed 405K, 12% free 10636K/12067K, paused 2ms+3ms
+W/PackageManager(  278): Permission group android.permission-group.SYSTEM_TOOLS from package android ignored: original from com.htc.framework
+D/dalvikvm(  278): GC_CONCURRENT freed 440K, 5% free 12158K/12707K, paused 1ms+5ms
+I/PackageManager(  278): /system/app/ApplicationsProvider.apk changed; collecting certs
+I/PackageManager(  278): New shared user android.uid.shared: id=10003
+I/PackageManager(  278): /system/app/BackupRestoreConfirmation.apk changed; collecting certs
+W/PackageParser(  278): No actions in intent filter at /system/app/BaiduAntiDisturbance.apk Binary XML file line #35
+W/PackageParser(  278): No actions in intent filter at /system/app/BaiduAntiDisturbance.apk Binary XML file line #43
+W/PackageParser(  278): No actions in intent filter at /system/app/BaiduAntiDisturbance.apk Binary XML file line #53
+W/PackageParser(  278): No actions in intent filter at /system/app/BaiduAntiDisturbance.apk Binary XML file line #61
+I/PackageManager(  278): /system/app/BaiduAntiDisturbance.apk changed; collecting certs
+W/PackageParser(  278): No actions in intent filter at /system/app/BaiduAntiDisturbance.apk Binary XML file line #69
+W/PackageParser(  278): Unknown element under <application>: uses-permission at /system/app/BaiduAppSearch.apk Binary XML file line #569
+W/PackageParser(  278): Unknown element under <application>: uses-permission at /system/app/BaiduAppSearch.apk Binary XML file line #570
+W/PackageParser(  278): Unknown element under <application>: uses-permission at /system/app/BaiduAppSearch.apk Binary XML file line #584
+W/PackageParser(  278): Unknown element under <application>: uses-permission at /system/app/BaiduAppSearch.apk Binary XML file line #585
+W/PackageParser(  278): Unknown element under <application>: uses-permission at /system/app/BaiduAppSearch.apk Binary XML file line #586
+I/PackageManager(  278): /system/app/BaiduAppSearch.apk changed; collecting certs
+W/PackageParser(  278): Unknown element under <application>: uses-permission at /system/app/BaiduAppSearch.apk Binary XML file line #587
+D/dalvikvm(  278): GC_CONCURRENT freed 2793K, 20% free 11725K/14627K, paused 1ms+51ms
+I/PackageManager(  278): /system/app/BaiduBackupRestore.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 8915K, 66% free 5034K/14627K, paused 1ms+11ms
+I/PackageManager(  278): /system/app/BaiduBrowser.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 2132K, 69% free 4668K/14627K, paused 1ms+10ms
+D/dalvikvm(  278): GC_CONCURRENT freed 1683K, 67% free 4828K/14627K, paused 2ms+3ms
+I/zipro   (  278): +++ successful write
+I/zipro   (  278): +++ successful write
+I/zipro   (  278): +++ successful write
+I/zipro   (  278): +++ successful write
+I/zipro   (  278): +++ successful write
+I/PackageManager(  278): /system/app/BaiduCamera.apk changed; collecting certs
+I/PackageManager(  278): /system/app/BaiduClickSearch.apk changed; collecting certs
+I/PackageManager(  278): /system/app/BaiduClock.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 1185K, 63% free 5477K/14627K, paused 1ms+14ms
+I/PackageManager(  278): /system/app/BaiduFlashlight.apk changed; collecting certs
+I/PackageManager(  278): /system/app/BaiduGallery3D.apk changed; collecting certs
+I/PackageManager(  278): /system/app/BaiduImageSearch.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 3000K, 71% free 4319K/14627K, paused 1ms+6ms
+I/PackageManager(  278): /system/app/BaiduInput.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 1714K, 70% free 4448K/14627K, paused 2ms+5ms
+I/PackageManager(  278): /system/app/BaiduKeyguard.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 1315K, 66% free 4976K/14627K, paused 2ms+11ms
+I/PackageManager(  278): /system/app/BaiduMap.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 2258K, 69% free 4560K/14627K, paused 1ms+3ms
+D/dalvikvm(  278): GC_CONCURRENT freed 1344K, 66% free 5058K/14627K, paused 1ms+3ms
+D/dalvikvm(  278): GC_CONCURRENT freed 712K, 58% free 6188K/14627K, paused 1ms+3ms
+I/PackageManager(  278): /system/app/BaiduMusicPlayer.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 1431K, 55% free 6600K/14627K, paused 1ms+18ms
+I/PackageManager(  278): /system/app/BaiduNetworkLocation.apk changed; collecting certs
+I/PackageManager(  278): /system/app/BaiduNetworkService.apk changed; collecting certs
+I/PackageManager(  278): /system/app/BaiduNotepad.apk changed; collecting certs
+I/PackageManager(  278): /system/app/BaiduProxy.apk changed; collecting certs
+I/PackageManager(  278): /system/app/BaiduReader.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 3436K, 66% free 5007K/14627K, paused 3ms+11ms
+D/dalvikvm(  278): GC_CONCURRENT freed 2365K, 70% free 4485K/14627K, paused 2ms+2ms
+I/PackageManager(  278): /system/app/BaiduSemiView.apk changed; collecting certs
+I/PackageManager(  278): /system/app/BaiduServiceFramework.apk changed; collecting certs
+I/PackageManager(  278): /system/app/BaiduSoundRecorder.apk changed; collecting certs
+I/PackageManager(  278): /system/app/BaiduSync.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 1084K, 65% free 5224K/14627K, paused 1ms+12ms
+I/PackageManager(  278): /system/app/BaiduSysFramework.apk changed; collecting certs
+I/PackageManager(  278): /system/app/BaiduTheme.apk changed; collecting certs
+I/PackageManager(  278): /system/app/BaiduTts.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 2497K, 69% free 4567K/14627K, paused 2ms+8ms
+I/PackageManager(  278): /system/app/BaiduUpdate.apk changed; collecting certs
+I/PackageManager(  278): New shared user android.media: id=10029
+I/PackageManager(  278): /system/app/BaiduUserFeedback.apk changed; collecting certs
+I/PackageManager(  278): /system/app/BaiduVideoPlayer.apk changed; collecting certs
+I/PackageManager(  278): /system/app/BaiduWangpan.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 1698K, 69% free 4648K/14627K, paused 1ms+5ms
+D/dalvikvm(  278): GC_CONCURRENT freed 1573K, 67% free 4918K/14627K, paused 2ms+3ms
+I/PackageManager(  278): /system/app/BaiduWeather.apk changed; collecting certs
+W/PackageParser(  278): No actions in intent filter at /system/app/Bluetooth.apk Binary XML file line #160
+I/PackageManager(  278): /system/app/Bluetooth.apk changed; collecting certs
+I/PackageManager(  278): /system/app/Browser.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 1133K, 62% free 5616K/14627K, paused 2ms+16ms
+I/PackageManager(  278): /system/app/Calculator.apk changed; collecting certs
+I/PackageManager(  278): /system/app/Calendar.apk changed; collecting certs
+I/PackageManager(  278): /system/app/CalendarProvider.apk changed; collecting certs
+I/PackageManager(  278): New shared user android.uid.calendar: id=10038
+I/PackageManager(  278): /system/app/CertInstaller.apk changed; collecting certs
+W/PackageParser(  278): No actions in intent filter at /system/app/Contacts.apk Binary XML file line #324
+W/PackageParser(  278): No actions in intent filter at /system/app/Contacts.apk Binary XML file line #396
+I/PackageManager(  278): /system/app/Contacts.apk changed; collecting certs
+W/PackageParser(  278): No actions in intent filter at /system/app/Contacts.apk Binary XML file line #451
+D/dalvikvm(  278): GC_CONCURRENT freed 2639K, 68% free 4820K/14627K, paused 1ms+8ms
+D/dalvikvm(  278): GC_CONCURRENT freed 1794K, 67% free 4869K/14627K, paused 3ms+3ms
+I/PackageManager(  278): /system/app/ContactsProvider.apk changed; collecting certs
+I/PackageManager(  278): /system/app/DefaultContainerService.apk changed; collecting certs
+I/PackageManager(  278): /system/app/DownloadProvider.apk changed; collecting certs
+I/PackageManager(  278): /system/app/DownloadProviderUi.apk changed; collecting certs
+I/PackageManager(  278): /system/app/DrmProvider.apk changed; collecting certs
+I/PackageManager(  278): /system/app/DynamicPermissionProvider.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 1213K, 63% free 5499K/14627K, paused 2ms+15ms
+I/PackageManager(  278): /system/app/Email.apk changed; collecting certs
+I/PackageManager(  278): /system/app/Exchange.apk changed; collecting certs
+I/PackageManager(  278): /system/app/FMRadioService.apk changed; collecting certs
+I/PackageManager(  278): /system/app/FindmeDM.apk changed; collecting certs
+I/PackageManager(  278): /system/app/HomePro.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 2497K, 67% free 4836K/14627K, paused 2ms+7ms
+I/PackageManager(  278): /system/app/KeyChain.apk changed; collecting certs
+I/PackageManager(  278): /system/app/LiveWallpapersPicker.apk changed; collecting certs
+I/PackageManager(  278): /system/app/MediaProvider.apk changed; collecting certs
+I/PackageManager(  278): /system/app/Mms.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 1756K, 67% free 4923K/14627K, paused 2ms+8ms
+I/PackageManager(  278): /system/app/NewPhoneWizard.apk changed; collecting certs
+I/PackageManager(  278): /system/app/NotificationProvider.apk changed; collecting certs
+I/PackageManager(  278): /system/app/OnekeyWidget.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 1881K, 67% free 4885K/14627K, paused 1ms+7ms
+I/PackageManager(  278): /system/app/OnlineWallpaper.apk changed; collecting certs
+I/PackageManager(  278): /system/app/PackageInstaller.apk changed; collecting certs
+I/PackageManager(  278): /system/app/PhaseBeam.apk changed; collecting certs
+I/PackageManager(  278): /system/app/Phone.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 1694K, 66% free 5034K/14627K, paused 1ms+5ms
+I/PackageManager(  278): /system/app/Provision.apk changed; collecting certs
+I/PackageManager(  278): /system/app/ResManager.apk changed; collecting certs
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #726
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #737
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #749
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #761
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #773
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #785
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #798
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #809
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #817
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #831
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #844
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #851
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #1016
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #1033
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #1044
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #1069
+I/PackageManager(  278): /system/app/SearchBox.apk changed; collecting certs
+W/PackageParser(  278): No actions in intent filter at /system/app/SearchBox.apk Binary XML file line #1081
+D/dalvikvm(  278): GC_CONCURRENT freed 1207K, 62% free 5571K/14627K, paused 2ms+8ms
+D/dalvikvm(  278): GC_CONCURRENT freed 1987K, 63% free 5427K/14627K, paused 2ms+2ms
+D/dalvikvm(  278): GC_CONCURRENT freed 983K, 58% free 6286K/14627K, paused 1ms+2ms
+I/zipro   (  278): +++ successful write
+I/zipro   (  278): +++ successful write
+W/PackageParser(  278): Problem in package /system/app/Settings.apk:
+I/PackageManager(  278): /system/app/Settings.apk changed; collecting certs
+W/PackageParser(  278): Unknown element under <activity>: category at /system/app/Settings.apk Binary XML file line #996
+D/dalvikvm(  278): GC_CONCURRENT freed 980K, 52% free 7091K/14627K, paused 1ms+19ms
+I/PackageManager(  278): /system/app/SettingsProvider.apk changed; collecting certs
+I/PackageManager(  278): /system/app/SharedStorageBackup.apk changed; collecting certs
+I/PackageManager(  278): /system/app/SystemUI.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 3352K, 62% free 5581K/14627K, paused 1ms+11ms
+D/dalvikvm(  278): GC_CONCURRENT freed 1949K, 63% free 5474K/14627K, paused 3ms+3ms
+I/PackageManager(  278): /system/app/TelephonyProvider.apk changed; collecting certs
+I/PackageManager(  278): /system/app/TrafficMonitor.apk changed; collecting certs
+I/PackageManager(  278): /system/app/UserDictionaryProvider.apk changed; collecting certs
+I/PackageManager(  278): /system/app/VoiceAssistant.apk changed; collecting certs
+D/dalvikvm(  278): GC_CONCURRENT freed 1087K, 58% free 6182K/14627K, paused 1ms+14ms
